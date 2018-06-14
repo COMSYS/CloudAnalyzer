@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: imgur
+Internal-Id: 39
+Source: manual
+Author: Pennekamp
+Date: 2017-02-23 16:25
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="imgur" Id="39">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?imgur\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Verizon
+Internal-Id: 84
+Author: Pennekamp, Henze
+Date: 2017-05-04 09:35
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Verizon" Id="84">
+  <Region ID="0">
+    <!-- EdgeCast -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:edgecastcdn|uplynk|epsiloncdn|v2cdn|verizondigitalmedia)\.(?:com|net)(?:,.*)?$" Type="Subject"/>
+    <!-- Flickr -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:yimg|flickr)\.com(?:,.*)?$" Type="Subject"/>
+    <!-- Flurry -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:flurry|yahooapis)\.com(?:,.*)?$" Type="Subject"/>
+    <!-- MillenialMedia -->
+    <Regex Regex=".*O=&quot;Millennial Media, Inc\.&quot;(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=&quot;AOL (?:Advertising )?Inc\.&quot;(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=Millennial Media, Inc\.(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=AOL (?:Advertising )?Inc\.(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?nexage\.com(?:,.*)?$" Type="Subject"/>
+    <!-- Tumblr -->
+    <Regex Regex=".*CN=(?:\S*\.)?tumblr\.com(?:,.*)?$" Type="Subject"/>
+    <!-- Yahoo -->
+    <Regex Regex=".*CN=(?:\S*\.)?yahoo\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

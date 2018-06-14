@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_cat_tweaks">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_tweaks"
+            android:summary="@string/pref_tweaks_summ"
+            android:title="@string/pref_tweaks" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_tunipv4_value"
+            android:dependency="pref_tweaks"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:key="pref_tweaks_tunipv4"
+            android:summary="@string/pref_tweaks_tunipv4_summ"
+            android:title="@string/pref_tweaks_tunipv4" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_dnsipv4_value"
+            android:dependency="pref_tweaks"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:key="pref_tweaks_dnsipv4"
+            android:summary="@string/pref_tweaks_dnsipv4_summ"
+            android:title="@string/pref_tweaks_dnsipv4" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="pref_tweaks"
+            android:key="pref_tweaks_dnsextra"
+            android:summary="@string/pref_tweaks_dnsextra_summ"
+            android:title="@string/pref_tweaks_dnsextra" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_tcpforwarder_value"
+            android:dependency="pref_tweaks"
+            android:inputType="number"
+            android:key="pref_tweaks_tcpforwarder"
+            android:summary="@string/pref_tweaks_tcpforwarder_summ"
+            android:title="@string/pref_tweaks_tcpforwarder" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_udpforwarder_value"
+            android:dependency="pref_tweaks"
+            android:inputType="number"
+            android:key="pref_tweaks_udpforwarder"
+            android:summary="@string/pref_tweaks_udpforwarder_summ"
+            android:title="@string/pref_tweaks_udpforwarder" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_tcpbuffer_value"
+            android:dependency="pref_tweaks"
+            android:inputType="number"
+            android:key="pref_tweaks_tcpbuffer"
+            android:summary="@string/pref_tweaks_tcpbuffer_summ"
+            android:title="@string/pref_tweaks_tcpbuffer" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_udpbuffer_value"
+            android:dependency="pref_tweaks"
+            android:inputType="number"
+            android:key="pref_tweaks_udpbuffer"
+            android:summary="@string/pref_tweaks_udpbuffer_summ"
+            android:title="@string/pref_tweaks_udpbuffer" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_threads_value"
+            android:dependency="pref_tweaks"
+            android:inputType="number"
+            android:key="pref_tweaks_threads"
+            android:summary="@string/pref_tweaks_threads_summ"
+            android:title="@string/pref_tweaks_threads" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_tweaks_sleeptime_value"
+            android:dependency="pref_tweaks"
+            android:inputType="number"
+            android:key="pref_tweaks_sleeptime"
+            android:summary="@string/pref_tweaks_sleeptime_summ"
+            android:title="@string/pref_tweaks_sleeptime" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="pref_tweaks"
+            android:key="pref_tweak_eval_mode"
+            android:summary="@string/pref_tweak_eval_mode_summ"
+            android:title="@string/pref_tweak_eval_mode" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

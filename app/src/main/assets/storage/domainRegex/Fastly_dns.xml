@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Fastly
+Internal-Id: 32
+Source: unknown
+Author: Henze
+Date: 2017-02-22 16:30
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Fastly" Id="32">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:fastly|fastlylb)\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?(?:fastly-streams|fastlylabs|fastly-plugins|fastly-analytics|fastly-debug)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

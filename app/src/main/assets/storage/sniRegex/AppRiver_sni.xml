@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: AppRiver
+Internal-Id: 12
+Source: manual, senderbase
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="AppRiver" Id="12">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:appriver|roaringpenguin)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudAnalyzer</string>
+    <string name="title_results_apps">Anwendungen</string>
+    <string name="title_results_services">Dienste</string>
+    <string name="title_results_regions">Standorte</string>
+    <string name="title_results_settings">Einstellungen</string>
+    <string name="title_results_imprint">Impressum &amp; Datenschutz</string>
+    <string name="title_activity_applist_picker">Anwendungen filtern</string>
+
+
+
+
+
+
+
+
+    <string name="headerApps_services">Verwendete Dienste</string>
+    <string name="headerApps_servicesRegions">Verwendete Dienste (Standort)</string>
+    <string name="headerApps_regions">Verwendete Standorte</string>
+    <string name="headerApps_DataAmount">Datenmenge Download+Upload</string>
+    <string name="headerApps_DataAmount_Download">Datenmenge Download</string>
+    <string name="headerApps_DataAmount_Upload">Datenmenge Upload</string>
+    <string name="headerAppServiceDetail_DataAmount">Nutzung von $service durch $app (Up+Down)</string>
+    <string name="headerAppServiceDetail_DataAmountUp">Nutzung von $service durch $app (Up)</string>
+    <string name="headerAppServiceDetail_DataAmountDown">Nutzung von $service durch $app (Down)</string>
+    <string name="headerAppServiceDetail_Coherence">Zugehörige Dienste zu $service in $app</string>
+    <string name="headerServices_dataAmount">Datenmenge</string>
+    <string name="headerServices_dataAmount_upload">Datenmenge Upload</string>
+    <string name="headerServices_dataAmount_download">Datenmenge Download</string>
+    <string name="headerServices_apps">Verwendete Dienste in Anwendungen</string>
+    <string name="headerServices_regions">Verwendete Dienste in Standorten</string>
+    <string name="headerRegions_regionApp">Von Anwendungen verwendete Dienste in $region</string>
+    <string name="headerRegions_regionService">Verwendete Dienste in $region</string>
+    <string name="headerRegions_dataAmount">Datenmenge pro $region</string>
+    <string name="headerRegions_dataAmount_download">Datenmenge Download pro $region</string>
+    <string name="headerRegions_dataAmount_upload">Datenmenge Upload pro $region</string>
+    <string name="no_cloud_usage">Keine Cloud-Nutzung innerhalb des Zeitraumes</string>
+
+    <string name="headerSettings_notifications">Benachrichtigungseinstellungen</string>
+    <string name="headerSettings_misc">Experteneinstellungen</string>
+    <string name="headerSettings_database">Datenbank-Einstellungen</string>
+    <string name="headerDebug_statistics">VPN-Statistiken</string>
+    <string name="headerDebug_connections">VPN-Verbindungen</string>
+
+    <!-- old debug fragments (only debug mode) -->
+    <string name="btRefresh">Aktualisieren</string>
+    <string name="btCleanForwarder">Sockets aufräumen</string>
+    <string name="lblSizeSocketMap">#Sockets</string>
+    <string name="lblSizePortMap">#Ports</string>
+    <string name="notInitialized">nicht initialisiert</string>
+    <string name="TCPPacketCount">#TCP-Pakete:</string>
+    <string name="TCPSocketCount">#TCP-Sockets:</string>
+    <string name="UDPPacketCount">#UDP-Pakete</string>
+    <string name="UDPSocketCount">#UDP-Sockets:</string>
+    <string name="TUNinPacketCount">#TUN-IN-Pakete:</string>
+    <string name="TUNoutPacketCount">#TUN-OUT-Pakete:</string>
+
+    <!-- labels and legends -->  <!-- spaces are required to resolve layout issues -->
+    <string name="identified_upload">"Zugeordneter Upload                "</string>
+    <string name="identified_download">"Zugeordneter Download              "</string>
+    <string name="overall_upload">"Gesamter Upload                    "</string>
+    <string name="overall_download">"Gesamter Download                  "</string>
+    <string name="identified_traffic">"Zugeordneter Cloud-Traffic         "</string>
+    <string name="identified_app_traffic">"Zugeordneter Cloud-Traffic         "</string>
+    <string name="identified_service_traffic">"Zugeordneter Traffic des Service   "</string>
+    <string name="identified_region_traffic">Zugeordneter Traffic des Standortes</string>
+    <string name="overall_traffic">"Gesamt-Traffic                     "</string>
+    <string name="overall_cloud_traffic">"Gesamt-Cloud-Traffic               "</string>
+    <string name="stats_apps_legendY">Gesamt-Traffic vs. Cloud-Traffic [MB]</string>
+    <string name="stats_service_legendY">Cloud-Traffic vs. Traffic des Service [MB]</string>
+    <string name="stats_region_legendY">Cloud-Traffic vs. Traffic des Standortes [MB]</string>
+
+    <!-- actionbar buttons -->
+    <string name="vpn_toggle">VPN</string>
+    <string name="cal_period">Zeitraum</string>
+
+    <!-- misc texts -->
+    <string name="drawer">Navigation</string>
+    <string name="drawer_close">Menü schließen</string>
+    <string name="drawer_open">Menü öffnen</string>
+    <string name="cal_start">Start:</string>
+    <string name="cal_end">Ende:</string>
+
+
+
+
+    <!-- upload and notification related messages and toasts -->
+    <string name="db_size">Datenbank Größe</string>
+    <string name="db_size_content">"Die SQLite-Datenbank von CloudAnalyzer benötigt zur Zeit "</string>
+    <string name="error_service">Fehler beim Starten des VPN-Dienstes?!</string>
+    <string name="inactive">VPN-Dienst ist inaktiv!</string>
+    <string name="inactive_content">Datenverkehr wird nicht analysiert…</string>
+    <string name="active">VPN-Dienst aktiv!</string>
+    <string name="active_content">Datenverkehr wird analysiert…</string>
+    <string name="locked">Datenbank ist aktuell blockiert!</string>
+    <string name="vpn_permission">Erteilen Sie bitte die VPN-Berechtigung in der App!</string>
+
+    <!-- Interaction and notification shortcut buttons -->
+    <string name="loading">Lädt…</string>
+    <string name="ok">Okay</string>
+    <string name="accept">Annehmen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="quit">Verlassen</string>
+    <string name="start">Starten</string>
+    <string name="stop">Stoppen</string>
+    <string name="issue">Fehler</string>
+
+    <!-- new Android Notification Settings -->
+    <string name="channel_name">VPN-Dienst Benachrichtigungen</string>
+    <string name="channel_description">Zeigt Statusinformationen über CloudAnalyzer an</string>
+
+    <!-- Preferences -->
+    <string name="pref_cat_notifications">Benachrichtigungen</string>
+    <string name="pref_notification_bar_active">Aktiviert Statusleiste</string>
+    <string name="pref_notification_bar_active_summ">Zeigt eine Statusleiste, wenn CloudAnalyzer aktiv ist</string>
+    <string name="pref_notification_bar_always">Zeigt immer eine Statusleiste</string>
+    <string name="pref_notification_bar_always_summ">Zeigt auch eine Statusleiste, wenn CloudAnalyzer inaktiv ist</string>
+    <string name="pref_notification_warning">Benachrichtigung bei Inaktivität</string>
+    <string name="pref_notification_warning_summ">Generiere eine Benachrichtigung, wenn CloudAnalyzer inaktiv wird</string>
+    <string name="pref_notification_splash">Nutzungsbedingungen IMMER</string>
+    <string name="pref_notification_splash_summ">Zeige Nutzungsbedinungen auch, wenn diese bereits akzeptiert wurden</string>
+    <string name="pref_notification_toasts">Zeige wichtige Toasts</string>
+    <string name="pref_notification_toasts_summ">Informiert über Netzwerkwechsel</string>
+    <string name="pref_cat_debugging">Fehlerbehebung</string>
+    <string name="pref_debugging_output">Erstell Logdateien</string>
+    <string name="pref_debugging_output_summ">Aktiviert Logging Komponente des VPN-Dienstes</string>
+    <string name="pref_debugging_path">Logging Verzeichnis wählen</string>
+    <string name="pref_debugging_path_summ">Verzeichnis in dem die Logdateien abgelegt werden</string>
+    <string name="pref_debugging_log_level">Aktiviert Logging für Komponenten</string>
+    <string name="pref_debugging_log_level_summ">Nur benötigte Komponenten in Logdatei sammeln</string>
+    <string name="pref_debugging_level">Setzt Logging Stufe für Komponenten</string>
+    <string name="pref_debugging_level_summ">Nur benötigte Stufe in Logdatei sammeln</string>
+
+    <string name="pref_debugging_pcap">Sicher Datenverkehr in PCAP-Datei</string>
+    <string name="pref_debugging_pcap_summ">Speicher Pakete in einer Datei auf dem internen Speicher</string>
+    <string name="pref_debugging_pcap_header">Speicher nur Paketköpfe in PCAP-Datei</string>
+    <string name="pref_debugging_pcap_header_summ">Entfernt Nutzdaten vom Paket bevor dieses gesichert wird</string>
+    <string name="pref_cat_tweaks">Feinjustierung (nur für Experten)</string>
+    <string name="pref_tweaks">Aktiviert Feinjustierung</string>
+    <string name="pref_tweaks_summ">Nur anpassen, wenn die Risiken bekannt sind</string>
+    <string name="pref_tweaks_tunipv4">IPv4-Adresse der TUN-Schnittstelle</string>
+    <string name="pref_tweaks_tunipv4_summ">Ändert die intern genutzte IPv4-Adresse</string>
+
+    <string name="pref_tweaks_dnsipv4">IP-Adresse des DNS Servers</string>
+    <string name="pref_tweaks_dnsipv4_summ">Ändert den genutzen DNS Server</string>
+
+    <string name="pref_tweaks_dnsextra">Setze DNS Server als weitere Quelle</string>
+    <string name="pref_tweaks_dnsextra_summ">Aktiviere DNS Server als Ausweichsystem</string>
+    <string name="pref_tweaks_tcpforwarder">Maximale Anzahl von TCP-Verbindungen</string>
+    <string name="pref_tweaks_tcpforwarder_summ">Ändern der internen Aufteilung</string>
+
+    <string name="pref_tweaks_udpforwarder">Maximale Anzahl von UDP-Verbindungen</string>
+    <string name="pref_tweaks_udpforwarder_summ">Ändern der internen Aufteilung</string>
+
+    <string name="pref_tweaks_tcpbuffer">Maximale Lebensdauer einer TCP-Verbindung</string>
+    <string name="pref_tweaks_tcpbuffer_summ">Wartezeit bis zum Schließen in Millisekunden</string>
+
+    <string name="pref_tweaks_udpbuffer">Maximale Lebensdauer einer UDP-Verbindung</string>
+    <string name="pref_tweaks_udpbuffer_summ">Wartezeit bis zum Schließen in Millisekunden</string>
+
+    <string name="pref_tweaks_threads">Anzahl der Update-Threads</string>
+    <string name="pref_tweaks_threads_summ">Ändern der intern genutzen Anzahl der Threads</string>
+
+    <string name="pref_tweaks_sleeptime">Passt die VPN-Abfragegeschwindigkeit an</string>
+    <string name="pref_tweaks_sleeptime_summ">Mofiziert die internen Schlafzeiten</string>
+
+    <string name="pref_tweak_eval_mode">Deaktiviert Evaluationsmodus</string>
+    <string name="pref_tweak_eval_mode_summ">Überschreibt Einstellung des Evaluationsmodi</string>
+
+    <!-- Database Management -->
+    <string name="pref_db_cat_database">Datenbank Verwaltung</string>
+    <string name="pref_db_flatten">Datenbank bis zum gewählten Monat zusammenfassen</string>
+    <string name="pref_db_flatten_summ">Reduziert die Datentiefe von Tages- zu Monatswerten</string>
+    <string name="pref_db_personal">Entfernt persönliche Information aus Datenbank</string>
+    <string name="pref_db_personal_summ">Löscht Informationen die als privat angesehen werden könnten</string>
+    <string name="pref_db_appremoval">App aus Datenbank entfernen</string>
+    <string name="pref_db_appremoval_summ">Entfernt Daten der gewählten App komplett aus Datenbank</string>
+    <string name="pref_db_debug_information">Filtern von besonderen Apps</string>
+    <string name="pref_db_debug_information_summ">Bestimme welche speziellen Informationen gezeigt werden</string>
+    <string name="pref_db_cat_database_export">Datenbank Sicherung</string>
+    <string name="pref_db_size">Zeigt die Datenbank Größe</string>
+    <string name="pref_db_size_summ">Aktuelle Größe im internen Speicher in MB</string>
+    <string name="pref_db_backup">Datenbank auf Speicher kopieren</string>
+    <string name="pref_db_backup_summ">Exportiert die Datenbank zum manuellen Auswerten</string>
+
+    <!-- output from preferences changes (as toast) -->
+    <string name="restart">Diese Änderung benötigt einen kompletten Neustart!</string>
+    <string name="export_success">Export erfolgreich!</string>
+    <string name="export_failed">Exportieren fehlgeschlagen!</string>
+    <string name="flatten_success">Datenbank erfolgreich zusammengefasst.</string>
+    <string name="personal_information">Keine (weiteren) persönlichen Daten vorhanden.</string>
+    <string name="no_support_eval_mode">Nicht verfügbar im Evaluationsmodus.</string>
+    <string name="app_filtered">" entfernt."</string>
+    <string name="app_removed">"Erfolgreich entfernt "</string>
+    <string name="app_not_stored">App nicht in Datenbank vorhanden.</string>
+    <string name="not_implemented">nicht implementiert</string>
+
+    <!-- first startup -->
+    <string name="tos">Nutzungsbedingungen</string>
+    <string name="tos_content">Sobald die Analyse der Cloud-Nutzung gestartet wird, wird der gesamte Datenverkehr analysiert und gegen Muster geprüft um Cloud-Dienste zu identifizieren. Die CloudAnalyzer-App Informationen darüber, welche Anwendung welche Dienste und zu welchem Umfang nutzt. Weder sammeln wir persönlichen Informationen, noch laden wir welche zu unseren Servern hoch. Bitte lesen Sie unsere Datenschutzerklärung für weitere Informationen.</string>
+
+    <!-- initial hint -->
+    <string name="empty_database_title">Hinweis</string>
+    <string name="empty_database_content">Es scheint, als würden Sie CloudAnalyzer zum ersten Mal nutzen. Wählen Sie die \'Abspieltaste\' in der rechten oberen Ecke um das Sammeln von Informationen über Ihre Cloud-Nutzung zu starten.</string>
+    <string name="calendar_hint">Hier klicken, um einen Zeitraum für die Darstellung der Daten zu wählen</string>
+    <string name="record_button_hint">Hier klicken, um die Analyse der eigenen Cloud-Nutzung zu starten</string>
+    <string name="main_hint">\n\nSobald die Analyse der Cloud-Nutzung gestartet wird, wird der gesamte Datenverkehr analysiert und gegen Muster geprüft um Cloud-Dienste zu identifizieren. Die CloudAnalyzer-App Informationen darüber, welche Anwendung welche Dienste und zu welchem Umfang nutzt. Weder sammeln wir persönlichen Informationen, noch laden wir welche zu unseren Servern hoch. Bitte lesen Sie unsere Datenschutzerklärung für weitere Informationen.</string>
+
+    <!-- exit application -->
+    <string name="exit">App schließen?</string>
+    <string name="exit_content">Der gewählte Zeitraum wird dabei auf den Standardwert zurückgesetzt.</string>
+
+    <!-- Imprint text -->
+
+
+
+
+
+
+</resources>

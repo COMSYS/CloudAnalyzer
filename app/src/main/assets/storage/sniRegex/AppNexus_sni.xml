@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: AppNexus
+Internal-Id: 11
+Source: manual
+Author: Henze
+Date: 2017-02-25 17:50
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="AppNexus" Id="11">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:geogslb|adnxs|appnexus)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:adnexus|adnxs|appnexus)\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

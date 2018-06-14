@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.rwth.comsys.cloudanalyzer.gui.fragments.AppRegionFragment">
+
+    <de.rwth.comsys.cloudanalyzer.gui.util.PieChart
+        android:id="@+id/appRegionChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/appRegionChartText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center"
+        android:text="@string/no_cloud_usage"
+        android:textColor="@android:color/black" />
+
+</FrameLayout>

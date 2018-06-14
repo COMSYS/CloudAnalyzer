@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: VK
+Internal-Id: 86
+Source: manual, https://vk.com/dev/first_guide
+Author: Henze
+Date: 2017-02-21 17:05
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="VK" Id="86">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?vk\.(?:com|me)" />
+  </Region>
+</Service>
+</DomainRegexes>

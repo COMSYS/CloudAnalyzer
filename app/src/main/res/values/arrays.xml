@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_array">
+        <item>Toggle Live Analysis</item>>
+        <item>App List</item>
+        <item>Service List</item>
+        <item>Region List</item>
+        <item>Settings</item>
+        <item>Imprint &amp; Privacy</item>
+        <item>Log Issue</item>
+    </string-array>
+    <string-array name="settings_menu_array">
+        <item>Notification Settings</item>
+        <item>Expert Settings</item>
+        <item>Manage Database</item>
+        <item>View Statistics </item>
+        <item>View Connections</item>
+    </string-array>
+
+    <string-array name="pref_log_level_titles">
+        <item>Capture Interface</item>
+        <item>Capture Service</item>
+        <item>Database Upload</item>
+        <item>Broadcast Monitor</item>
+        <item>Network Monitor</item>
+        <item>I/O Handler</item>
+        <item>Outgoing Handler</item>
+        <item>Incoming Handler</item>
+        <item>Traffic Forwarder</item>
+        <item>Forwarder Manager</item>
+        <item>TCP Forwarder</item>
+        <item>UDP Forwarder</item>
+    </string-array>
+    <string-array name="pref_log_level_values" translatable="false">
+        <item>CaptureCentral</item>
+        <item>CaptureService</item>
+        <item>DatabaseUpload</item>
+        <item>MessageReceiver</item>
+        <item>NetworkMonitor</item>
+        <item>IONotificationThread</item>
+        <item>TunOutThread</item>
+        <item>TunInThread</item>
+        <item>Forwarder</item>
+        <item>ForwarderManager</item>
+        <item>TCPForwarder</item>
+        <item>UDPForwarder</item>
+    </string-array>
+    <string-array name="pref_log_level_defaults" translatable="false">
+        <item>CaptureCentral</item>
+        <item>DatabaseUpload</item>
+        <item>MessageReceiver</item>
+        <item>CaptureService</item>
+        <item>ForwarderManager</item>
+    </string-array>
+
+    <string-array name="pref_db_debug_information_titles">
+        <item>CloudAnalyzer App</item>
+        <item>Unidentified App</item>
+        <item>Unmatched App Port</item>
+        <item>Unknown App Port</item>
+        <item>Unsupported Protocol</item>
+    </string-array>
+    <string-array name="pref_db_debug_information_values" translatable="false">
+        <item>de.rwth.comsys.cloudanalyzer</item>
+        <item>Unknown.Application</item>
+        <item>Unknown.Port</item>
+        <item>Unknown.Uid</item>
+        <item>Unsupported.Protocol</item>
+    </string-array>
+    <string-array name="pref_db_debug_information_defaults" translatable="false">
+        <item>de.rwth.comsys.cloudanalyzer</item>
+        <item>Unknown.Application</item>
+        <item>Unknown.Port</item>
+        <item>Unknown.Uid</item>
+        <item>Unsupported.Protocol</item>
+    </string-array>
+
+
+</resources>

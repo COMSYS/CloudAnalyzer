@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="de.rwth.comsys.cloudanalyzer.gui.fragments.StatsListFragment">
+
+    <TextView
+        android:id="@+id/stats_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/legendYStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/stats_date"
+        android:layout_marginStart="-82dp"
+        android:rotation="-90"
+        android:text="@string/stats_apps_legendY"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:translationY="90dp" />
+
+    <de.rwth.comsys.cloudanalyzer.gui.util.StatsChart
+        android:id="@+id/statsChart"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/stats_date"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="33dp" />
+
+    <ImageView
+        android:id="@+id/hintGraph1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-45dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/arrow_blue" />
+
+    <TextView
+        android:id="@+id/hintText1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:freezesText="false"
+        android:gravity="end"
+        android:text="@string/record_button_hint"
+        android:textAlignment="textEnd"
+        android:textColor="#318BC1"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/hintGraph2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hintText1"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/arrow_blue_curved" />
+
+    <TextView
+        android:id="@+id/hintText2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/legendYStats"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="-20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/calendar_hint"
+        android:textColor="#318BC1"
+        android:textSize="20sp" />
+</RelativeLayout>

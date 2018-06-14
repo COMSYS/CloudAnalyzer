@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Tune
+Internal-Id: 80
+Source: manual, https://help.tune.com/hasoffers/network-domain-settings/
+Author: Henze
+Date: 2017-02-21 15:15
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Tune" Id="80">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:hasoffers|mobileapptracking|tune|measurementapi)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:go2jump|go2cloud)\.(?:com|org)" />
+  </Region>
+</Service>
+</DomainRegexes>

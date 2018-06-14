@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_db_cat_database">
+
+        <Preference
+            android:key="pref_db_flatten"
+            android:summary="@string/pref_db_flatten_summ"
+            android:title="@string/pref_db_flatten" />
+        <Preference
+            android:key="pref_db_personal"
+            android:summary="@string/pref_db_personal_summ"
+            android:title="@string/pref_db_personal" />
+        <MultiSelectListPreference
+            android:defaultValue="@array/pref_db_debug_information_defaults"
+            android:entries="@array/pref_db_debug_information_titles"
+            android:entryValues="@array/pref_db_debug_information_values"
+            android:key="pref_db_debug_information"
+            android:summary="@string/pref_db_debug_information_summ"
+            android:title="@string/pref_db_debug_information" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

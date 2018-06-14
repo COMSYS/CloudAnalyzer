@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_calendar_stats"
+        android:icon="@mipmap/ic_calendar"
+        android:showAsAction="always"
+        android:title="@string/cal_period" />
+    <item
+        android:id="@+id/action_toggle_vpn"
+        android:icon="@drawable/ic_action_play_arrow"
+        android:showAsAction="always"
+        android:title="@string/vpn_toggle" />
+</menu>

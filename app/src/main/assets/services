@@ -1,0 +1,184 @@
+#######
+# list services here
+#######
+
+#1, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.AdColony
+#2, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Adjust
+#3, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Adobe
+#4, IaaS, 
+de.rwth.comsys.cloudanalyzer.services.Akamai
+#5, IaaS+PaaS+SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Alibaba
+#6, IaaS+PaaS+SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Amazon
+#7, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Appboy
+#8, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Apple
+#9, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.AppLovin
+#10, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Appnext
+#11, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.AppNexus
+#12, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.AppRiver
+#13, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.AppsFlyer
+#14, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Apteligent
+#15, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Box
+#16, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.CenturyLink
+#17, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Chartboost
+#18, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Cisco
+#19, PaaS, 
+de.rwth.comsys.cloudanalyzer.services.Cloudflare
+#20, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Cloudinary
+#21, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Comcast
+#22, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.comScore
+#23, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Criteo
+#24, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Dell
+#25, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.DimensionData
+#26, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Dropbox
+#27, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.DuckDuckGo
+#28, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Epsilon
+#29, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Evernote
+#30, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.ExperianMarketingServices
+#31, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Facebook
+#32, PaaS, 
+de.rwth.comsys.cloudanalyzer.services.Fastly
+#33, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Fronter
+#34, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Fujitsu
+#35, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.GitHub
+#36, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.GmoCloud
+#37, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.GoDaddy
+#38, IaaS+PaaS+SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Google
+#39, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.imgur
+#40, PaaS, 
+de.rwth.comsys.cloudanalyzer.services.Incapsula
+#41, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Informatica
+#42, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.InMobi
+#43, IaaS+SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Internap
+#44, PaaS, 
+de.rwth.comsys.cloudanalyzer.services.KeyCDN
+#45, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Kochava
+#46, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Leadbolt
+#47, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.LinkedIn
+#48, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Localytics
+#49, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.MAXMailProtection
+#50, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.McAfee
+#51, IaaS+SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Microsoft
+#52, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Mimecast
+#53, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Mixpanel
+#54, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Netflix
+#55, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.NTTCommunications
+#56, IaaS, 
+de.rwth.comsys.cloudanalyzer.services.Oracle
+#57, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Origin
+#58, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.OVH
+#59, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Pinterest
+#60, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Proofpoint
+#61, IaaS+PaaS, 
+de.rwth.comsys.cloudanalyzer.services.Rackspace
+#62, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.RNTSMedia
+#63, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Salesforce
+#64, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Smaato
+#65, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Snap
+#66, IaaS, 
+de.rwth.comsys.cloudanalyzer.services.SoftLayer
+#67, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Sonobi
+#68, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.SoundCloud
+#69, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.sovrn
+#70, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Spotify
+#71, IaaS, 
+de.rwth.comsys.cloudanalyzer.services.StackPath
+#72, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.StartApp
+#73, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Steam
+#74, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Strato
+#75, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.StumbleUpon
+#76, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Supersonic
+#77, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Symantec
+#78, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Tapjoy
+#79, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.TrendMicro
+#80, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Tune
+#81, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Twitter
+#82, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.UnitedInternet
+#83, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.UnityAds
+#84, IaaS+SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Verizon
+#85, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Vimeo
+#86, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.VK
+#87, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.VMware
+#88, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Vungle
+#89, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.WeChat
+#90, SaaS, 
+de.rwth.comsys.cloudanalyzer.services.Yandex

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Leadbolt
+Internal-Id: 46
+Source: manual
+Author: Henze
+Date: 2017-02-21 14:35
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Leadbolt" Id="46">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?leadbolt\.(?:net|com)" />
+    <Regex Regex="(?:\S*\.)?leadboltnetwork\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

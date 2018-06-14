@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_db_cat_database_export">
+
+        <Preference
+            android:key="pref_db_appremoval"
+            android:summary="@string/pref_db_appremoval_summ"
+            android:title="@string/pref_db_appremoval" />
+        <Preference
+            android:key="pref_db_size"
+            android:summary="@string/pref_db_size_summ"
+            android:title="@string/pref_db_size" />
+        <Preference
+            android:key="pref_db_backup"
+            android:summary="@string/pref_db_backup_summ"
+            android:title="@string/pref_db_backup" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

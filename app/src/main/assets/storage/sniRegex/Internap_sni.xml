@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Internap
+Internal-Id: 43
+Source: ???
+Author: Muehmer
+Date: 2016-07-11 15:59
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Internap" Id="43">
+  <Region ID="3">
+    <Regex Regex="(?:\S*\.)?us\.voxel\.net" />
+  </Region>
+  <Region ID="46">
+    <Regex Regex="(?:\S*\.)?nl\.voxel\.net" />
+  </Region>
+  <Region ID="33">
+    <Regex Regex="(?:\S*\.)?sg\.voxel\.net" />
+  </Region>
+  <Region ID="27">
+    <Regex Regex="(?:\S*\.)?hg\.voxel\.net" />
+  </Region>
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?voxel\.net" />
+    <Regex Regex="(?:\S*\.)?(?:internap|inap|singlehop|iweb)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

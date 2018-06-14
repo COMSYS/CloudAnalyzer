@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: DuckDuckGo
+Internal-Id: 27
+Certificate-Source: https://duckduckgo.com/
+Earliest-Certificate-Expiry: 2017-07-26
+Author: Muehmer
+Date: 2016-07-07 15:45
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="DuckDuckGo" Id="27">
+  <Region ID="0">
+    <Regex Regex="CN=\S*\.duckduckgo\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=Duck Duck Go(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Incapsula
+Internal-Id: 40
+Author: Henze
+Date: 2017-02-22 18:09
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Incapsula" Id="40">
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?incapsula\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

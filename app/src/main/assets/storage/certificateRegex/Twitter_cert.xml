@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Twitter
+Internal-Id: 81
+Author: Pennekamp, Henze
+Date: 2017-05-04 09:20
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Twitter" Id="81">
+  <Region ID="0">
+    <Regex Regex=".*O=&quot;Twitter, Inc\.&quot;(?:,.*)?$" Type="Subject"/>
+    <!-- fabric was purchased by Google, however, it still uses Twitter certificates -->
+    <Regex Regex="^(.(?&lt;!fabric\.io)(?&lt;!answers\.io))*$" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

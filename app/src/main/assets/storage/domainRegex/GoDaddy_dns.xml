@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: GoDaddy
+Internal-Id: 37
+Source: manual, http://research.domaintools.com/statistics/mailservers/
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="GoDaddy" Id="37">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?godaddy\.com" />
+    <Regex Regex="(?:\S*\.)?secureserver\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

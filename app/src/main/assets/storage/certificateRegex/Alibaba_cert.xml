@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Alibaba
+Internal-Id: 5
+Author: Pennekamp, Henze
+Date: 2017-05-04 10:15
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Alibaba" Id="5">
+  <Region ID="0">
+    <Regex Regex=".*O=&quot;Alibaba \(China\) Technology Co\., Ltd\.&quot;(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=Alibaba Cloud Computing Ltd\.(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

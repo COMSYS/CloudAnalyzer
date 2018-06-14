@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: DuckDuckGo
+Internal-Id: 27
+Source: https://duckduckgo.com/
+Author: Muehmer
+Date: 2016-07-06 21:35
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="DuckDuckGo" Id="27">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?duckduckgo\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

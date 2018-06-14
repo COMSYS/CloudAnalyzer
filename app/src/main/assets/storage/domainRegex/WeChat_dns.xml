@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: WeChat
+Internal-Id: 89
+Source: manual, http://open.wechat.com/cgi-bin/newreadtemplate?t=overseas_open/faq&symbol=faqs-oa-technical
+Author: Henze
+Date: 2017-02-21 16:45
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="WeChat" Id="89">
+  <Region ID="0">
+    <!-- WeChat is known as Weixin in China -->
+    <Regex Regex="(?:\S*\.)?(?:wechat|servicewechat|wx\.qq|weixin\.qq|weixinbridge)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

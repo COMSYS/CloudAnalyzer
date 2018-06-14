@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Box
+Internal-Id: 15
+Certificate-Source: https://account.box.com/login/
+Earliest-Certificate-Expiry: 2017-10-23
+Author: Muehmer
+Date: 2016-07-07 17:25
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Box" Id="15">
+  <Region ID="0">
+    <Regex Regex=".*CN=\S*\.box\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=Box, Inc\.(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

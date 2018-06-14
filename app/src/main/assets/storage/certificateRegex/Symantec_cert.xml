@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Symantec
+Internal-Id: 77
+Certificate-Source: https://secure.lifelock.com/portal/login/
+Earliest-Certificate-Expiry: 2018-04-26
+Author: Pennekamp (Lifelock is the successor of BitYota by Muehmer, aquired by Symantec)
+Date: 2016-07-10 21:15
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Symantec" Id="77">
+  <Region ID="0">
+    <Regex Regex=".*O=.*Symantec Corporation(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=.*LifeLock(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

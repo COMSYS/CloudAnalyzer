@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Facebook
+Internal-Id: 31
+Source: https://github.com/jmdugan/blocklists/blob/master/corporations/facebook/all and https://www.facebook.com/whitehat
+Author: Pennekamp
+Date: 2017-02-21 20:05
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Facebook" Id="31">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:facebook|fb|messenger)\.(?:com|net|me)" />
+    <Regex Regex="(?:\S*\.)?(?:fbcdn|fbsbx|tfbnw|whatsapp)\.(?:com|net)" />
+    <!-- Instagram, Atlas and Parse-->
+    <Regex Regex="(?:\S*\.)?(?:instagram|cdninstagram|atlassolutions|atdmt|atlassbx|parse)\.com" />
+    <!-- Legacy from Muehmer (Akamai) - updated 02-21-2017 -->
+    <!-- <Regex Regex="(?:\S*\.)?facebook\.(?:com|net).(?:edgekey|edgesuite).net" />
+    <Regex Regex="(?:\S*\.)?instagram\S*akamai\S*(?:(edgekey|edgesuite).net)?" />
+    <Regex Regex="(?:\S*\.)?fbstatic\.\S*akamai\S*" />
+    <Regex Regex="(?:\S*\.)?fbcdn\.\S*akamai\S*" />
+    <Regex Regex="(?:\S*\.)?fbexternal\.\S*akamai\S*" /> -->
+  </Region>
+</Service>
+</DomainRegexes>

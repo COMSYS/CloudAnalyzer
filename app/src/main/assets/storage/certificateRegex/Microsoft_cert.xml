@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Microsoft
+Internal-Id: 51
+Source: https://azure.microsoft.com/en-us/documentation/articles/cloud-services-custom-domain-name/ and https://docs.microsoft.com/de-de/azure/cdn/cdn-map-content-to-custom-domain
+Author: Henze, Pennekamp
+Date: 2017-05-04 10:00
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Microsoft" Id="51">
+  <Region ID="0">
+    <!-- HockeyApp -->
+    <Regex Regex=".*CN=(?:\S*\.)?hockeyapp\.(?:com|net)(?:,.*)?$" Type="Subject"/>
+    <!-- MicrosoftAzure -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:msecnd|azurewebsites)\.net(?:,.*)?$" Type="Subject"/>
+    <!-- MicrosoftOffice -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:skype|skypeassets|live|outlook|microsoft|yammer|msn|bing|acompli|visualstudio|s-microsoft|microsoftstore|msocdn|microsoftonline-p)\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?(?:onestore|gfx)\.ms(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?(?:office|live|msedge|cloudapp)\.net(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

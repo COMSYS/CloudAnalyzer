@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Salesforce
+Internal-Id: 63
+Source: https://help.salesforce.com/apex/HTViewSolution?id=000003652, senderbase.org
+Author: Muehmer (last edit: Drichel)
+Date: 2016-07-11 10:46
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Salesforce" Id="63">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:exacttarget|force|salesforce|staticforce)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>
+

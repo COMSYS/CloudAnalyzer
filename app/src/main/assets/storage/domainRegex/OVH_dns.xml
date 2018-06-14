@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: OVH
+Internal-Id: 58
+Source: manual, http://research.domaintools.com/statistics/mailservers/
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="OVH" Id="58">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?ovh\.(?:net|com|co\.uk|de)" />
+  </Region>
+</Service>
+</DomainRegexes>

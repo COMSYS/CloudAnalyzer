@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_cat_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_notification_bar_active"
+            android:summary="@string/pref_notification_bar_active_summ"
+            android:title="@string/pref_notification_bar_active" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="pref_notification_bar_active"
+            android:key="pref_notification_bar_always"
+            android:summary="@string/pref_notification_bar_always_summ"
+            android:title="@string/pref_notification_bar_always" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_notification_warning"
+            android:summary="@string/pref_notification_warning_summ"
+            android:title="@string/pref_notification_warning" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_notification_splash"
+            android:summary="@string/pref_notification_splash_summ"
+            android:title="@string/pref_notification_splash" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_notification_toasts"
+            android:summary="@string/pref_notification_toasts_summ"
+            android:title="@string/pref_notification_toasts" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

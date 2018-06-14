@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Dimension Data
+Internal-Id: 25
+Source: https://na-caas-idp.dimensiondata.cloud/, http://www.datacenterknowledge.com/archives/2011/06/30/dimension-data-acquires-opsource/
+Author: Muehmer (last edit: Pennekamp)
+Date: 2016-07-07 16:40
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Dimension Data" Id="25">
+  <Region ID="2">
+    <Regex Regex="(?:\S*\.)?na\S*\.dimensiondata\.(?:com|cloud|net)" />
+    <Regex Regex="(?:\S*\.)?na\S*\.opsourcecloud\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?na\S*\.opsource\.(?:com|net)" />
+  </Region>
+  <Region ID="17">
+    <Regex Regex="(?:\S*\.)?eu\S*\.dimensiondata\.(?:com|cloud|net)" />
+    <Regex Regex="(?:\S*\.)?eu\S*\.opsourcecloud\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?eu\S*\.opsource\.(?:com|net)" />
+  </Region>
+  <Region ID="41">
+    <Regex Regex="(?:\S*\.)?au\S*\.dimensiondata\.(?:com|cloud|net)" />
+    <Regex Regex="(?:\S*\.)?au\S*\.opsourcecloud\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?au\S*\.opsource\.(?:com|net)" />
+  </Region>
+  <Region ID="47">
+    <Regex Regex="(?:\S*\.)?af\S*\.dimensiondata\.(?:com|cloud|net)" />
+    <Regex Regex="(?:\S*\.)?af\S*\.opsourcecloud\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?af\S*\.opsource\.(?:com|net)" />
+  </Region>
+  <Region ID="25">
+    <Regex Regex="(?:\S*\.)?ap\S*\.dimensiondata\.(?:com|cloud|net)" />
+    <Regex Regex="(?:\S*\.)?ap\S*\.opsourcecloud\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?ap\S*\.opsource\.(?:com|net)" />
+  </Region>
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?dimensiondata\.(?:com|cloud|net)" />
+    <Regex Regex="(?:\S*\.)?opsourcecloud\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?opsource\.(?:com|net)" />
+  </Region>
+</Service>
+</DomainRegexes>

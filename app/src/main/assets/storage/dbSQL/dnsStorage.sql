@@ -1,0 +1,10 @@
+DROP VIEW IF EXISTS dn_with_identified_nb;
+DROP VIEW IF EXISTS dn_seen;
+DROP TABLE IF EXISTS dns_edges;
+DROP TABLE IF EXISTS dns_vertices;
+DROP TABLE IF EXISTS dns_dnames;
+CREATE TABLE dns_vertices (id VARCHAR PRIMARY KEY NOT NULL, type INT NOT NULL);
+CREATE TABLE dns_edges (`from` VARCHAR NOT NULL REFERENCES dns_vertices(id), `to` VARCHAR NOT NULL REFERENCES dns_vertices(id), ttl_since LONG NOT NULL, ttl LONG NOT NULL, PRIMARY KEY(`from`, `to`, ttl_since, ttl));
+CREATE TABLE dns_dnames (name VARCHAR NOT NULL, service INT NOT NULL REFERENCES services(id), region INT NOT NULL, PRIMARY KEY (name, service));
+CREATE VIEW dn_seen AS SELECT DISTINCT v.id AS domain, GROUP_CONCAT(DISTINCT s.name) AS services FROM (dns_vertices AS v LEFT JOIN dns_dnames AS n ON v.id = n.name LEFT JOIN services AS s ON s.id = n.service) GROUP BY v.id, v.type HAVING v.type = 1;
+CREATE VIEW dn_with_identified_nb AS SELECT domain, GROUP_CONCAT(name) AS services, (domain in ( SELECT name FROM dns_dnames )) AS identified FROM ( SELECT `to` AS domain, service FROM dns_edges JOIN dns_dnames ON name = `from` UNION SELECT DISTINCT `from` AS domain, service FROM dns_edges JOIN dns_dnames ON name = `to` ) JOIN services ON id = service WHERE domain IN ( SELECT ID AS domain FROM dns_vertices  WHERE TYPE = 1 ) GROUP BY domain;

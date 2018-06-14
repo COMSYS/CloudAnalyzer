@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: GitHub (IPv4)
+Internal-Id: 35
+Source: https://help.github.com/articles/github-s-ip-addresses/
+Author: Pennekamp
+Date: 2017-02-23 16:45
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="GitHub" Id="35">
+  <Region ID="0">
+    <IpRange Subnet="192.30.252.0/22" />
+    <IpRange Subnet="185.199.108.0/22" />
+  </Region>
+</Service>
+</IpRanges>

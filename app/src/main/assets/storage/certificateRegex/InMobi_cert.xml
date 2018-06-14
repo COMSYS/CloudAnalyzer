@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: InMobi
+Internal-Id: 42
+Author: Henze
+Date: 2017-02-22 17:37
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="InMobi" Id="42">
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?(?:appsdt|inmobi|sproutbuilder)\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?inmobicdn\.(?:net|com)(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

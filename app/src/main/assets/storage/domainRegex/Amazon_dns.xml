@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Amazon
+Internal-Id: 6
+Source: https://docs.aws.amazon.com/general/latest/gr/rande.html
+Author: Muehmer, Pennekamp, Henze
+Date: 2017-05-06 14:28
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Amazon" Id="6">
+  <Region ID="5">
+    <Regex Regex="(?:\S*\.)?compute-1\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?us-east-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-us-east-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="78">
+    <Regex Regex="(?:\S*\.)?us-east-2\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-us-east-2\S*\.amazonaws\.com" />
+  </Region>
+    <Region ID="8">
+    <Regex Regex="(?:\S*\.)?us-west-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-us-west-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="7">
+    <Regex Regex="(?:\S*\.)?us-west-2\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-us-west-2\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="60">
+    <Regex Regex="(?:\S*\.)?ca-central-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-ca-central-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="22">
+    <Regex Regex="(?:\S*\.)?eu-central-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-eu-central-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="19">
+    <Regex Regex="(?:\S*\.)?eu-west-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-eu-west-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="56">
+    <Regex Regex="(?:\S*\.)?eu-west-2\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-eu-west-2\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="63">
+    <Regex Regex="(?:\S*\.)?eu-west-3\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-eu-west-3\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="38">
+    <Regex Regex="(?:\S*\.)?ap-northeast-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-ap-northeast-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="31">
+    <Regex Regex="(?:\S*\.)?ap-south-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-ap-south-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="33">
+    <Regex Regex="(?:\S*\.)?ap-southeast-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-ap-southeast-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="43">
+    <Regex Regex="(?:\S*\.)?ap-southeast-2\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-ap-southeast-2\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="16">
+    <Regex Regex="(?:\S*\.)?sa-east-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-sa-east-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="40">
+    <Regex Regex="(?:\S*\.)?cn-north-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-cn-north-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="39">
+    <Regex Regex="(?:\S*\.)?cn-northwest-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?s3-cn-northwest-1\S*\.amazonaws\.com" />
+  </Region>
+  <Region ID="6">
+    <Regex Regex="(?:\S*\.)?us-gov-west-1\S*\.amazonaws\.com" />
+    <Regex Regex="(?:\S*\.)?aax-us-west\S*\.amazon-adsystem\.com" />
+  </Region>
+  <Region ID="4">
+    <Regex Regex="(?:\S*\.)?aax-us-east\S*\.amazon-adsystem\.com" />
+  </Region>
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:amazonaws|amazonses|elasticbeanstalk|ssl-images-amazon|images-amazon|media-amazon|amazon-adsystem|assoc-amazon|amazon|)\.com" />
+    <Regex Regex="(?:\S*\.)?amazon\.(?:\w{2}\.)?\w{0,3}" />
+    <!-- Cloudfront -->
+    <Regex Regex="(?:\S*\.)?(?:cloudfront|jtvnw|ttvnw)\.net" />
+    <Regex Regex="(?:\S*\.)?twitch\.tv" />
+  </Region>
+</Service>
+</DomainRegexes>

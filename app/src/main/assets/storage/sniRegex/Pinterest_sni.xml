@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Pinterest
+Internal-Id: 59
+Source: manual
+Author: Pennekamp
+Date: 2017-23-02 15:40
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Pinterest" Id="59">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:pinterest|pinimg)\.(?:com|info)" />
+  </Region>
+</Service>
+</DomainRegexes>

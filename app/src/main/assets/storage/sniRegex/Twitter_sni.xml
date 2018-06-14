@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Twitter
+Internal-Id: 81
+Source: https://gist.github.com/fqrouter/8295003
+Author: Pennekamp, Henze
+Date: 2017-05-04 09:27
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Twitter" Id="81">
+  <Region ID="0">
+    <!-- TweetDeck https://www.crunchbase.com/organization/tweetdeck -->
+    <!-- Vine https://www.crunchbase.com/organization/vine -->
+    <Regex Regex="(?:\S*\.)?(?:t|vine)\.co" />
+    <Regex Regex="(?:\S*\.)?(?:twitter|ads-twitter|twttr|twimg|tweetdeck|vineapp)\.com" />
+    <!-- MoPub -->
+    <Regex Regex="(?:\S*\.)?mopub\.(?:com|link)" />
+  </Region>
+</Service>
+</DomainRegexes>

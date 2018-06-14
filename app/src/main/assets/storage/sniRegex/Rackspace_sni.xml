@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Rackspace
+Internal-Id: 61
+Source: unknown, senderbase
+Author: Henze
+Date: 2017-02-22 16:50
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Rackspace" Id="61">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?rackspace\.(?:com|net|nl|com\.hk|com\.au|co\.uk)" />
+    <!-- Rackspace CDN is realized using Akamai: https://blog.rackspace.com/rackspace-launches-cdn-partnership-with-industry-leader-akamai -->
+    <Regex Regex="(?:\S*\.)?(?:rackcdn|rackspacecloud|emailsrvr)\.com" />
+    <Regex Regex="(?:\S*\.)?mailgun\.(?:us|net|info)"/>
+    <Regex Regex="(?:\S*\.)?mgsend\.net"/>
+  </Region>
+</Service>
+</DomainRegexes>

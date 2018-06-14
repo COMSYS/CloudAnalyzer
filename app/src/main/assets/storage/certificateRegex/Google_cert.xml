@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Google
+Internal-Id: 38
+Author: Pennekamp, Henze
+Date: 2017-05-03 18:20
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Google" Id="38">
+  <Region ID="0">
+    <Regex Regex=".*O=&quot;Google Inc&quot;(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=Google Inc(?:,.*)?$" Type="Subject"/>
+    <!-- AdMob -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:googlesyndication|googleadservices)\.com(?:,.*)?$" Type="Subject"/>
+    <!-- DoubleClick -->
+    <Regex Regex=".*CN=(?:\S*\.)?doubleclick\.net(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?(?:doubleclickusercontent|doubleclickbygoogle)\.com(?:,.*)?$" Type="Subject"/>
+    <!-- Crashlytics -->
+    <Regex Regex=".*CN=(?:\S*\.)?crashlytics\.com(?:,.*)?$" Type="Subject"/>
+    <!-- Fabric and Answers -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:fabric|answers)\.io(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*$" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

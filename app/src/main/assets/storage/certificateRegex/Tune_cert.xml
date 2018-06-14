@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Tune
+Internal-Id: 80
+Author: Henze
+Date: 2017-02-22 17:46
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Tune" Id="80">
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?(?:tune|hasoffers|mobileapptracking|measurementapi)\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?(?:go2jump|go2cloud)\.(?:org|com)(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

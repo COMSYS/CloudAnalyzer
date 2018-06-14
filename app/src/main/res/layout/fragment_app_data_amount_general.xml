@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@android:color/white"
+    tools:context="de.rwth.comsys.cloudanalyzer.gui.fragments.StatsDataAmountAbstract">
+
+    <TextView
+        android:id="@+id/appDataAmountLegendY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="-85dp"
+        android:layout_marginTop="-10dp"
+        android:gravity="center_vertical"
+        android:rotation="-90"
+        android:text="@string/stats_apps_legendY"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <de.rwth.comsys.cloudanalyzer.gui.util.StatsChart
+        android:id="@+id/appDataAmountChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="55dp" />
+
+</FrameLayout>

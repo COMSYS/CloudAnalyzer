@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Akamai
+Internal-Id: 4
+Author: Henze
+Date: 2017-02-22 18:08
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Akamai" Id="4">
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?akamai\.(?:com|net)(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

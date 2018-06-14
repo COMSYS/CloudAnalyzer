@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Informatica Cloud
+Internal-Id: 41
+Source: https://network.informatica.com/docs/DOC-15144
+Author: Sanford (last edit: Pennekamp)
+Date: 2016-07-13 14:50
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Informatica Cloud" Id="41">
+  <Region ID="4">
+    <IpRange Subnet="204.14.232.0/23" />
+    <IpRange Subnet="204.14.237.0/24" />
+  </Region>
+  <Region ID="9">
+    <IpRange Subnet="96.43.144.0/22" />
+    <IpRange Subnet="96.43.148.0/22" />
+  </Region>
+  <Region ID="6">
+    <IpRange Subnet="204.14.234.0/23" />
+    <IpRange Subnet="204.14.238.0/23" />
+  </Region>
+  <Region ID="33">
+    <IpRange Subnet="202.129.242.0/23" />
+  </Region>
+</Service>
+</IpRanges>

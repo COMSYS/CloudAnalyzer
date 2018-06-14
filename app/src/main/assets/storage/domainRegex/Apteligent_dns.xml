@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Apteligent
+Internal-Id: 14
+Source: http://support.crittercism.com/articles/knowledge_base/Whitelisting-Apteligent-Servers-in-your-Network Be careful with the IP ranges, they belong to Amazon and seem to be way too large!
+Author: Henze
+Date: 2017-02-23 09:05
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Apteligent" Id="14">
+  <Region ID="0">
+    <!-- Crittercism is the (main) product of Apteligent -->
+    <Regex Regex="(?:\S*\.)?(?:apteligent|crittercism)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

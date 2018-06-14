@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Adobe
+Internal-Id: 3
+Source: https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-migration-decisions.html
+Author: Muehmer (last edit: Pennekamp)
+Date: 2016-07-11 19:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Adobe" Id="3">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:2o7|omtrdc|neolane)\.net" />
+    <Regex Regex="(?:\S*\.)?(?:adobe|adobeconnect|adobeitc|adobesystems|omniture|tubemogul|tmogul)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

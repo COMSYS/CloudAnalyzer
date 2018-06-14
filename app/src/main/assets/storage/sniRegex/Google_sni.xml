@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Google
+Internal-Id: 38
+Source: manual, senderbase, https://www.google.com/support/enterprise/static/postini/docs/admin/en/admin_ee_cu/ob_setup.html
+Author: Pennekamp, Henze
+Date: 2017-05-03 18:27
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Google" Id="38">
+  <Region ID="0">
+    <!-- google-*\w* is error-prone (!) -->
+    <Regex Regex="(?:\S*\.)?(?:youtube|ytimg|youtube-nocookie|google-*\w*|gstatic|ggpht|app-measurement|googlehosted|googlewifi|gmail|googlemail|obsmtp|postini|blogger|blogspot|blogblog|appspot)\.com" />
+    <Regex Regex="(?:\S*\.)?google\.(?:(?:(?:co|com|edu|gov|id|ltd|net|org|plc)\.)?(?:(?!example|invalid|local|localhost|test)[A-Za-z]{2,15}))" />
+    <!-- AdMob -->
+    <Regex Regex="(?:\S*\.)?googlesyndication(?:\S*\.google)?\.com" />
+    <Regex Regex="(?:\S*\.)?(?:googleadapis|gstaticads)(?:\S*\.google)?\.com" />
+    <!-- DoubleClick -->
+    <Regex Regex="(?:\S*\.)?(?:doubleclick|2mdn|1e100)\.net" />
+    <Regex Regex="(?:\S*\.)?(?:doubleclickusercontent|doubleclickbygoogle|googleadservices)\.com" />
+    <!-- Crashlytics -->
+    <Regex Regex="(?:\S*\.)?crashlytics\.com" />
+    <!-- Fabric and Answers -->
+    <Regex Regex="(?:\S*\.)?(?:fabric|answers)\.io" />
+  </Region>
+</Service>
+</DomainRegexes>

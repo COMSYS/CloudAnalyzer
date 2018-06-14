@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Regions: Worldwide
+Maximum-ID: 95
+Author: manually extended (last edit: Pennekamp)
+Date: 2018-04-06 20:15
+-->
+<Regions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Region Name="Root" ID="45">
+    <Region Name="Unknown" ID="0" />
+    <Region Name="America" ID="1">
+        <Region Name="North America" ID="2">
+            <Region Name="US" ID="3">
+                <Region Name="US East" ID="4">
+                    <Region Name="New Jersey" ID="71" />
+                    <Region Name="Ohio" ID="78" />
+                    <Region Name="Virginia" ID="5"/>
+                    <Region Name="Washington D.C." ID="54" />
+                </Region>
+                <Region Name="US West" ID="6">
+                    <Region Name="California" ID="8">
+                        <Region Name="San Jose" ID="52" />
+                        <Region Name="Los Angeles" ID="82" />
+                    <Region Name="Oregon" ID="7" />
+                    </Region>
+                    <Region Name="Washington" ID="50">
+                        <Region Name="Seattle" ID="51" />
+                    </Region>
+                </Region>
+                <Region Name="US Central" ID="9">
+                    <Region Name="Illinois" ID="10" />
+                    <Region Name="Iowa" ID="12" />
+                    <Region Name="Texas" ID="11">
+                        <Region Name="Dallas" ID="48" />
+                        <Region Name="Houston" ID="49" />
+                    </Region>
+                    <Region Name="Wyoming" ID="87">
+                </Region>
+            </Region>
+            <Region Name="Mexico" ID="58">
+                <Region Name="Mexico City" ID="59" />
+            </Region>
+            <Region Name="Canada" ID="60">
+                <Region Name="Montreal" ID="61" />
+                <Region Name="Quebec" ID="68" />
+                <Region Name="Toronto" ID="64" />
+            </Region>
+        </Region>
+        </Region>
+        <Region Name="South America" ID="13">
+            <Region Name="Brazil" ID="14">
+                <Region Name="Brazil South" ID="15">
+                    <Region Name="Sao Paulo State" ID="16" />
+                </Region>
+            </Region>
+        </Region>
+    </Region>
+    <Region Name="Europe" ID="17">
+        <Region Name="Europe Central" ID="20">
+            <Region Name="Germany" ID="21">
+                <Region Name="Frankfurt" ID="22" />
+                <Region Name="Magdeburg" ID="69" />
+            </Region>
+            <Region Name="Italy" ID="72">
+                <Region Name="Milan" ID="73" />
+            </Region>
+            <Region Name="Switzerland" ID="88">
+                <Region Name="Geneva" ID="89" />
+                <Region Name="Zurich" ID="90" />
+            </Region>
+        </Region>
+        <Region Name="Europe East" ID="85">
+        </Region>
+        <Region Name="Europe North" ID="75">
+            <Region Name="Norway" ID="76">
+                <Region Name="Oslo" ID="77" />
+            </Region>
+        </Region>
+        <Region Name="Europe Northwest" ID="18">
+            <Region Name="England" ID="55">
+                <Region Name="Cardiff" ID="80" />
+                <Region Name="Durham" ID="95" />
+                <Region Name="London" ID="56" />
+            </Region>
+            <Region Name="Ireland" ID="19">
+                <Region Name="Dublin" ID="86" />
+            </Region>
+        </Region>
+        <Region Name="Europe West" ID="23">
+            <Region Name="Netherlands" ID="24">
+                <Region Name="Amsterdam" ID="46" />  
+            </Region>
+            <Region Name="France" ID="62">
+                <Region Name="Paris" ID="63" />
+                <Region Name="Marseille" ID="83" />
+            </Region>
+        </Region>
+    </Region>
+    <Region Name="Asia" ID="25">
+        <Region Name="Asia East" ID="26">
+            <Region Name="Hong Kong" ID="27" />
+        </Region>
+        <Region Name="Asia South" ID="28">
+            <Region Name="India" ID="29">
+                <Region Name="Chennai" ID="67" />
+                <Region Name="Mumbai" ID="31" />
+                <Region Name="Pune" ID="30" />
+            </Region>
+        </Region>
+        <Region Name="Asia Southeast" ID="32">
+            <Region Name="Singapore" ID="33">
+                <Region Name="Jurong East" ID="53" />
+            </Region>
+        </Region>
+        <Region Name="Asia East" ID="34">
+            <Region Name="Japan" ID="35">
+                <Region Name="Osaka Prefecture" ID="37" />
+                <Region Name="Saitama Prefecture" ID="36" />
+                <Region Name="Tokyo" ID="38" />
+            </Region>
+            <Region Name="China" ID="39">
+                <Region Name="Beijing" ID="40" />
+                <Region Name="Ningxia" ID="79" />
+                <Region Name="Shanghai" ID="70" />
+            </Region>
+            <Region Name="Korea" ID="65">
+                <Region Name="Seoul" ID="66" />
+                <Region Name="Busan" ID="81" />
+            </Region>
+        </Region>
+        <Region Name="Asia West" ID="91">
+            <Region Name="United Arab Emirates" ID="92">
+                <Region Name="Abu Dhabi" ID="93" />
+                <Region Name="Dubai" ID="94" />
+            </Region>
+        </Region>
+    </Region>
+    <Region Name="Australia" ID="41">
+        <Region Name="New South Wales" ID="42">
+            <Region Name="Sydney" ID="43" />
+            <Region Name="Canberra" ID="84" />
+        </Region>
+        <Region Name="Victoria" ID="44">
+            <Region Name="Melbourne" ID="57" />
+        </Region>
+    </Region>
+    <Region Name="Africa" ID="47">
+        <Region Name="South Africa" ID="74" />
+    </Region>
+</Region>
+</Regions>

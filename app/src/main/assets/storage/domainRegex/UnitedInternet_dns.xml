@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: UnitedInternet
+Internal-Id: 82
+Source: manual, senderbase.org, http://postmaster.1and1.com/en/email-server/
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="UnitedInternet" Id="82">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:live-servers|oneandone|perfora|servidoresdns)\.net" />
+    <Regex Regex="(?:\S*\.)?(?:kundenserver|online|schlund)\.de" />
+    <Regex Regex="(?:\S*\.)?arsystel\.com" />
+    <Regex Regex="(?:\S*\.)?onlinehome-server\.(?:com|info)" />
+    <Regex Regex="(?:\S*\.)?(?:clienthosting|onlinehome)\.fr" />
+    <Regex Regex="(?:\S*\.)?clienteservidor\.es" />
+    <Regex Regex="(?:\S*\.)?pureserver\.info" />
+    <Regex Regex="(?:\S*\.)?fasthosts\.net\.uk" />
+    <Regex Regex="(?:\S*\.)?(?:customerhosting|fasthosts|livemail)\.co\.uk" />
+    <Regex Regex="(?:\S*\.)?livedns\.org\.uk" />
+    <Regex Regex="(?:\S*\.)?(?:1and1|gmx|web)\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?(?:1and1|gmx|web)\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+  </Region>
+</Service>
+</DomainRegexes>

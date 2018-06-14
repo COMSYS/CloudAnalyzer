@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Spotify
+Internal-Id: 70
+Source: ???
+Author: Muehmer
+Date: 2016-07-11 13:40
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Spotify" Id="70">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:spotify|spotilocal|tunigo|scdn)\.(?:co|com)" />
+  </Region>
+</Service>
+</DomainRegexes>

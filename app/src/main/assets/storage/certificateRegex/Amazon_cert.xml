@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Amazon
+Internal-Id: 6
+Author: Muehmer (last edit: Pennekamp)
+Date: 2017-06-05 14:20
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Amazon" Id="6">
+  <Region ID="5">
+    <Regex Regex=".*CN=\S*us-east-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-us-east-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="78">
+    <Regex Regex=".*CN=\S*us-east-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-us-east-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="8">
+    <Regex Regex=".*CN=\S*us-west-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-us-west-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="7">
+    <Regex Regex=".*CN=\S*us-west-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-us-west-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="60">
+    <Regex Regex=".*CN=\S*ca-central-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-ca-central-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="22">
+    <Regex Regex=".*CN=\S*eu-central-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-eu-central-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="19">
+    <Regex Regex=".*CN=\S*eu-west-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-eu-west-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="56">
+    <Regex Regex=".*CN=\S*eu-west-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-eu-west-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="63">
+    <Regex Regex=".*CN=\S*eu-west-3\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-eu-west-3\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="38">
+    <Regex Regex=".*CN=\S*ap-northeast-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-ap-northeast-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="31">
+    <Regex Regex=".*CN=\S*ap-south-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-ap-south-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="33">
+    <Regex Regex=".*CN=\S*ap-southeast-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-ap-southeast-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="43">
+    <Regex Regex=".*CN=\S*ap-southeast-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-ap-southeast-2\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="16">
+    <Regex Regex=".*CN=\S*sa-east-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-sa-east-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="40">
+    <Regex Regex=".*CN=\S*cn-north-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-cn-north-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="39">
+    <Regex Regex=".*CN=\S*cn-northwest-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*s3-cn-northwest-1\S*\.amazonaws\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="4">
+    <Regex Regex=".*CN=\S*aax-us-east\S*\.amazon-adsystem\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="6">
+    <Regex Regex=".*CN=\S*aax-us-west\S*\.amazon-adsystem\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?(?:amazonaws|ssl-images-amazon|amazon|amazon-adsystem|assoc-amazon)\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=&quot;Amazon\.com, Inc\.&quot;(?:,.*)?$" Type="Subject"/>
+    <!-- Cloudfront -->
+    <Regex Regex=".*CN=(?:\S*\.)?(?:cloudfront|ttvnw|jtvnw)\.net(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=(?:\S*\.)?twitch\.tv(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

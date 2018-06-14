@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Steam
+Internal-Id: 73
+Certificate-Source: https://store.steampowered.com//login/?redir=0
+Earliest-Certificate-Expiry: 2019-02-07
+Author: Muehmer
+Date: 2016-07-11 14:00
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Steam" Id="73">
+  <Region ID="0">
+    <Regex Regex=".*O=\S*Valve Corp\.(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*CN=\S*steampowered\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

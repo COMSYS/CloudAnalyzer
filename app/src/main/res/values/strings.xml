@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudAnalyzer</string>
+    <string name="title_results_apps">Apps</string>
+    <string name="title_results_services">Services</string>
+    <string name="title_results_regions">Locations</string>
+    <string name="title_results_settings">Settings</string>
+    <string name="title_results_imprint">Imprint &amp; Privacy Policy</string>
+    <string name="title_activity_applist_picker">App Filtering</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="title_activity_results" translatable="false">ResultsActivity</string>
+    <string name="title_activity_apps" translatable="false">AppsActivity</string>
+    <string name="title_activity_app_service_detail_view" translatable="false">AppServiceDetailView</string>
+    <string name="title_activity_services" translatable="false">ServicesActivity</string>
+    <string name="title_activity_regions" translatable="false">RegionsActivity</string>
+    <string name="title_activity_settings" translatable="false">DebugActivity</string>
+
+    <string name="headerApps_services">Contacted Services</string>
+    <string name="headerApps_servicesRegions">Contacted Services (Location)</string>
+    <string name="headerApps_regions">Contacted Locations</string>
+    <string name="headerApps_DataAmount">Data Amount Download+Upload</string>
+    <string name="headerApps_DataAmount_Download">Data Amount Download</string>
+    <string name="headerApps_DataAmount_Upload">Data Amount Upload</string>
+    <string name="headerAppServiceDetail_DataAmount">Usage of $service by $app (Down+Up)</string>
+    <string name="headerAppServiceDetail_DataAmountUp">Usage of $service by $app (Up)</string>
+    <string name="headerAppServiceDetail_DataAmountDown">Usage of $service by $app (Down)</string>
+    <string name="headerAppServiceDetail_Coherence">Related Services of $service in $app</string>
+    <string name="headerServices_dataAmount">Data Amount</string>
+    <string name="headerServices_dataAmount_upload">Data Amount Upload</string>
+    <string name="headerServices_dataAmount_download">Data Amount Download</string>
+    <string name="headerServices_apps">Utilized by Apps</string>
+    <string name="headerServices_regions">Utilized in Regions</string>
+    <string name="headerRegions_regionApp">Apps utilizing services in $region</string>
+    <string name="headerRegions_regionService">Services utilized in $region</string>
+    <string name="headerRegions_dataAmount">Data Amount of $region</string>
+    <string name="headerRegions_dataAmount_upload">Data Amount Upload of $region</string>
+    <string name="headerRegions_dataAmount_download">Data Amount Download of $region</string>
+    <string name="no_cloud_usage">No cloud usage within time period</string>
+
+    <string name="headerSettings_notifications">Notification Settings</string>
+    <string name="headerSettings_misc">Expert Settings</string>
+    <string name="headerSettings_database">Database Tools</string>
+    <string name="headerDebug_statistics">VPN Statistics</string>
+    <string name="headerDebug_connections">VPN Connections</string>
+
+    <!-- old debug fragments (only debug mode) -->
+    <string name="btRefresh">Refresh</string>
+    <string name="btCleanForwarder">Clean Map</string>
+    <string name="lblSizeSocketMap">Size SocketMap:</string>
+    <string name="lblSizePortMap">Size PortMap:</string>
+    <string name="notInitialized">not initialized</string>
+    <string name="TCPSocketCount">#TCP sockets:</string>
+    <string name="UDPSocketCount">#UDP sockets:</string>
+    <string name="TCPPacketCount">#TCP packets:</string>
+    <string name="UDPPacketCount">#UDP packets:</string>
+    <string name="TUNinPacketCount">#TUN-IN packets:</string>
+    <string name="TUNoutPacketCount">#TUN-OUT packets:</string>
+
+    <!-- labels and legends -->  <!-- spaces are required to resolve layout issues -->
+    <string name="identified_upload">"Identified Upload                  "</string>
+    <string name="identified_download">"Identified Download                "</string>
+    <string name="overall_upload">"Overall Upload                     "</string>
+    <string name="overall_download">"Overall Download                   "</string>
+    <string name="identified_traffic">"Identified Cloud Traffic           "</string>
+    <string name="identified_app_traffic">"Identified Cloud Traffic           "</string>
+    <string name="identified_service_traffic">"Identified Service Traffic         "</string>
+    <string name="identified_region_traffic">"Identified Location Traffic        "</string>
+    <string name="overall_traffic">"Overall Traffic                    "</string>
+    <string name="overall_cloud_traffic">"Overall Cloud Traffic              "</string>
+    <string name="stats_apps_legendY">Overall Traffic vs. Cloud Traffic [MB]</string>
+    <string name="stats_service_legendY">Overall Cloud vs. Service Traffic [MB]</string>
+    <string name="stats_region_legendY">Overall Cloud vs. Region Traffic [MB]</string>
+
+    <!-- actionbar buttons -->
+    <string name="vpn_toggle">VPN</string>
+    <string name="cal_period">Period</string>
+
+    <!-- misc texts -->
+    <string name="drawer">Navigation</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="cal_start">Start:</string>
+    <string name="cal_end">End:</string>
+    <string name="zero" translatable="false">0 MB</string>
+    <string name="down" translatable="false">Down</string>
+    <string name="up" translatable="false">Up</string>
+
+    <!-- upload and notification related messages and toasts -->
+    <string name="db_size">Database size</string>
+    <string name="db_size_content">"The SQLite database of CloudAnalyzer, currently, requires "</string>
+    <string name="error_service">Error starting Capture Service?!</string>
+    <string name="inactive">CloudAnalyzer is currently inactive!</string>
+    <string name="inactive_content">Traffic is not being analyzed…</string>
+    <string name="active">CloudAnalyzer is currently active!</string>
+    <string name="active_content">Traffic is being analyzed…</string>
+    <string name="locked">Database is currently locked!</string>
+    <string name="vpn_permission">Grant VPN Permission through GUI!</string>
+
+    <!-- Interaction and notification shortcut buttons -->
+    <string name="loading">Loading…</string>
+    <string name="ok">Okay</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="quit">Quit</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="issue">Issue</string>
+
+    <!-- new Android Notification Settings -->
+    <string name="channel_name">Capture VPN Notifications</string>
+    <string name="channel_description">Presents status information on CloudAnalyzer</string>
+
+    <!-- Preferences -->
+    <string name="pref_cat_notifications">Notifications</string>
+    <string name="pref_notification_bar_active">Activate notification bar</string>
+    <string name="pref_notification_bar_active_summ">Adds a notification bar while CloudAnalyzer is active</string>
+    <string name="pref_notification_bar_always">ALWAYS show a notification bar</string>
+    <string name="pref_notification_bar_always_summ">Show a notification bar even if CloudAnalyzer is inactive</string>
+    <string name="pref_notification_warning">Show Notification if inactive</string>
+    <string name="pref_notification_warning_summ">Trigger a notification warning once CloudAnalyzer switches to inactive</string>
+    <string name="pref_notification_splash">Repeatedly show terms of use</string>
+    <string name="pref_notification_splash_summ">Prompt terms of use even if they have been accepted previously</string>
+    <string name="pref_notification_toasts">Display important toasts</string>
+    <string name="pref_notification_toasts_summ">Inform about network changes through toast messages</string>
+    <string name="pref_cat_debugging">Debugging</string>
+    <string name="pref_debugging_output">Create debug output</string>
+    <string name="pref_debugging_output_summ">Activates logging component of VPN interface</string>
+    <string name="pref_debugging_path">Set debug output directory</string>
+    <string name="pref_debugging_path_summ">Location where debug output is stored</string>
+    <string name="pref_debugging_log_level">Set debug level component-wise</string>
+    <string name="pref_debugging_log_level_summ">Gather only required components in log files</string>
+    <string name="pref_debugging_level">Set debug level for components</string>
+    <string name="pref_debugging_level_summ">Gather only required details in log files</string>
+    <string name="pref_debugging_level_value" translatable="false">V</string>
+    <string name="pref_debugging_pcap">Log traffic into PCAP file</string>
+    <string name="pref_debugging_pcap_summ">Store packets in a file on the internal storage</string>
+    <string name="pref_debugging_pcap_header">Only store packet header in PCAP</string>
+    <string name="pref_debugging_pcap_header_summ">Removes payload from packet before writing to storage</string>
+    <string name="pref_cat_tweaks">Tweaks (Experts only)</string>
+    <string name="pref_tweaks">Enable tweaking</string>
+    <string name="pref_tweaks_summ">Only adjust these values if you know the risks</string>
+    <string name="pref_tweaks_tunipv4">IPv4 address of the TUN interface</string>
+    <string name="pref_tweaks_tunipv4_summ">Modify the internally used IPv4 address</string>
+    <string name="pref_tweaks_tunipv4_value" translatable="false">10.0.0.1</string>
+    <string name="pref_tweaks_dnsipv4">DNS server used by the TUN interface</string>
+    <string name="pref_tweaks_dnsipv4_summ">Modify the used DNS server</string>
+    <string name="pref_tweaks_dnsipv4_value" translatable="false">8.8.8.8</string>
+    <string name="pref_tweaks_dnsextra">Set fallback DNS server</string>
+    <string name="pref_tweaks_dnsextra_summ">Activate as fallback DNS server</string>
+    <string name="pref_tweaks_tcpforwarder">Maximum amount of TCP forwarder</string>
+    <string name="pref_tweaks_tcpforwarder_summ">Modify the internally used partitioning</string>
+    <string name="pref_tweaks_tcpforwarder_value" translatable="false">66</string>
+    <string name="pref_tweaks_udpforwarder">Maximum amount of UDP forwarder</string>
+    <string name="pref_tweaks_udpforwarder_summ">Modify the internally used partitioning</string>
+    <string name="pref_tweaks_udpforwarder_value" translatable="false">34</string>
+    <string name="pref_tweaks_tcpbuffer">Maximum lifetime of TCP forwarder</string>
+    <string name="pref_tweaks_tcpbuffer_summ">Timeout to close if necessary in milliseconds</string>
+    <string name="pref_tweaks_tcpbuffer_value" translatable="false">300000</string>
+    <string name="pref_tweaks_udpbuffer">Maximum lifetime of UDP forwarder</string>
+    <string name="pref_tweaks_udpbuffer_summ">Timeout to close if necessary in milliseconds</string>
+    <string name="pref_tweaks_udpbuffer_value" translatable="false">300000</string>
+    <string name="pref_tweaks_threads">Number of update threads</string>
+    <string name="pref_tweaks_threads_summ">Modify the internally used number of threads</string>
+    <string name="pref_tweaks_threads_value" translatable="false">2</string>
+    <string name="pref_tweaks_sleeptime">Adjust the VPN polling frequency</string>
+    <string name="pref_tweaks_sleeptime_summ">Modify the internally used sleep timer</string>
+    <string name="pref_tweaks_sleeptime_value" translatable="false">50</string>
+    <string name="pref_tweak_eval_mode">Disable eval mode</string>
+    <string name="pref_tweak_eval_mode_summ">Overwrite eval mode setting</string>
+
+    <!-- Database Management -->
+    <string name="pref_db_cat_database">Database Management</string>
+    <string name="pref_db_flatten">Flatten database until chosen month</string>
+    <string name="pref_db_flatten_summ">Reduce the information depth from daily to monthly</string>
+    <string name="pref_db_personal">Remove personal information from database</string>
+    <string name="pref_db_personal_summ">Strips information that might be considered private</string>
+    <string name="pref_db_appremoval">Remove app from database</string>
+    <string name="pref_db_appremoval_summ">Wipes information associated to a specific app from the database</string>
+    <string name="pref_db_debug_information">Specify which debug "apps" are filtered</string>
+    <string name="pref_db_debug_information_summ">Show specific debug related entries in output</string>
+    <string name="pref_db_cat_database_export">Database</string>
+    <string name="pref_db_size">Show database size</string>
+    <string name="pref_db_size_summ">Current size on the internal storage in MB</string>
+    <string name="pref_db_backup">Copy database to internal storage</string>
+    <string name="pref_db_backup_summ">Export SQLite database</string>
+
+    <!-- output from preferences changes (as toast) -->
+    <string name="restart">Changing this setting requires a full restart!</string>
+    <string name="export_failed">Export failed!</string>
+    <string name="export_success">Export successful!</string>
+    <string name="flatten_success">Database successfully flattened.</string>
+    <string name="personal_information">No (additional) personal information is stored.</string>
+    <string name="no_support_eval_mode">Not supported in eval mode.</string>
+    <string name="app_filtered">" removed from filtering."</string>
+    <string name="app_removed">"Successfully removed "</string>
+    <string name="app_not_stored">App not stored in database.</string>
+    <string name="not_implemented">not implemented</string>
+
+    <!-- first startup -->
+    <string name="tos">Terms of Use</string>
+    <string name="tos_content">As soon as you start the traffic analysis, all network traffic will be analyzed locally and matched against patterns to identify cloud services. The CloudAnalyzer app stores information about which application utilized which services and the respective data amount. We do not collect any sensitive information, nor upload anything to our servers. Please consult our privacy policy for further information.</string>
+
+    <!-- initial hint -->
+    <string name="empty_database_title">Hint</string>
+    <string name="empty_database_content">It seems that you are using CloudAnalyzer for the first time. Press the PLAY button in the upper right corner to start collecting information about your cloud usage.</string>
+    <string name="calendar_hint">Click here to select a time period for data presentation</string>
+    <string name="record_button_hint">Click here to start the detection of your cloud usage</string>
+    <string name="main_hint">\n\nAs soon as you start the traffic analysis, all network traffic will be analyzed locally and matched against patterns to identify cloud services. The CloudAnalyzer app stores information about which application utilized which services and the respective data amount. We do not collect any sensitive information, nor upload anything to our servers. Please consult our privacy policy for further information.</string>
+
+    <!-- exit application -->
+    <string name="exit">Terminate Application?</string>
+    <string name="exit_content">The selected date range will be reset to default values.</string>
+
+    <!-- Imprint text -->
+    <string name="imprint_text" translatable="false">
+        \n<b><u>Impressum</u></b>
+        \n
+        \n
+        \n
+    </string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Supersonic
+Internal-Id: 76
+Author: Pennekamp
+Date: 2017-02-22 14:15
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Supersonic" Id="76">
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?(?:supersonic|supersonicads|ironsrc|streamrail)\.(?:com|net)(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

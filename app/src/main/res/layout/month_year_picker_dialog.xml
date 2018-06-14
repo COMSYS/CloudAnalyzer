@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal">
+
+    <NumberPicker
+        android:id="@+id/picker_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <NumberPicker
+        android:id="@+id/picker_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

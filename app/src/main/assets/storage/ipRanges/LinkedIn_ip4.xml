@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: LinkedIn
+Internal-Id: 47
+Source: https://db-ip.com/all/108.174.3
+Author: manually extended (last edit: sanford)
+Date: 2016-07-08 10:36
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="LinkedIn" Id="47">
+  <Region ID="0">
+    <IpRange Subnet="108.174.3.0/24" />
+  </Region>
+</Service>
+</IpRanges>

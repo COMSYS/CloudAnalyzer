@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: NTT Communications
+Internal-Id: 55
+Source: manual
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="NTT Communications" Id="55">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:arkadin|cloudn-service|ntt|secure-24|ragingwire|pc1)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:cloudn2|ntt|virtela)\.net" />
+    <Regex Regex="(?:\S*\.)?e-shelter\.de" />
+  </Region>
+</Service>
+</DomainRegexes>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="de.rwth.comsys.cloudanalyzer" >
+
+    <!-- react to network changes -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- miscellaneous -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- auto-starting the capture service -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- support of dumping logs and database -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".gui.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="de.rwth.comsys.capture_vpn.util.MessageReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- VPN service -->
+        <service
+            android:name="de.rwth.comsys.capture_vpn.CaptureService"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+        <!-- display information on VPN service -->
+        <service
+            android:name="de.rwth.comsys.capture_vpn.util.NotificationService"
+            android:enabled="true" >
+        </service>
+        <!-- cloudanalyzer -->
+        <service
+            android:name=".AnalysisService"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name=".gui.ResultsActivity"
+            android:label="@string/title_activity_results"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".gui.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".gui.AppListPickerAnalysisActivity"
+            android:label="@string/title_activity_applist_picker" >
+        </activity>
+        <activity
+            android:name=".gui.AppsActivity"
+            android:label="@string/title_activity_apps"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".gui.ServicesActivity"
+            android:label="@string/title_activity_services"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity
+            android:name=".gui.RegionsActivity"
+            android:label="@string/title_activity_regions"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity
+            android:name=".gui.AppServiceDetailActivity"
+            android:label="@string/title_activity_app_service_detail_view"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".gui.AppServiceRegionDetailActivity"
+            android:label="@string/title_activity_app_service_detail_view"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+    </application>
+
+</manifest>

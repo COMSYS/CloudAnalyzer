@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: LinkedIn
+Internal-Id: 47
+Source: manual
+Author: Pennekamp
+Date: 2017-02-23 15:35
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="LinkedIn" Id="47">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:linkedin|licdn)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:slideshare|slidesharecdn)\.(?:net|com)" />
+  </Region>
+</Service>
+</DomainRegexes>

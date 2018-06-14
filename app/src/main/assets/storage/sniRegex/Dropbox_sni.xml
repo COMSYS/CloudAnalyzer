@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Dropbox
+Internal-Id: 26
+Source: https://www.dropbox.com/de/help/217
+Author: Pennekamp
+Date: 2017-02-23 16:30
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Dropbox" Id="26">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:dropbox|dropboxapi|dropboxbusiness|dropboxdocs|dropboxforums|dropboxforum|dropboxinsiders|dropboxmail|dropboxpartners|dropboxstatic|getdropbox|dropboxstatic|dropboxusercontent|dropbox-dns)\.com" />
+    <Regex Regex="(?:\S*\.)?db\.tt" />
+  </Region>
+</Service>
+</DomainRegexes>

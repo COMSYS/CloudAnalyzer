@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.rwth.comsys.cloudanalyzer.gui.fragments.DebugStatisticsFragment">
+
+    <Button
+        android:id="@+id/btCleanForwarder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/btRefresh"
+        android:text="@string/btCleanForwarder" />
+
+    <Button
+        android:id="@+id/btRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/btRefresh" />
+
+    <TextView
+        android:id="@+id/lblAppPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <!-- information -->
+    <TextView
+        android:id="@+id/lblSizePortMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btRefresh"
+        android:layout_marginTop="25dp"
+        android:text="@string/lblSizePortMap"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblSizeSocketMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblSizePortMap"
+        android:layout_marginTop="25dp"
+        android:text="@string/lblSizeSocketMap"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTCPSocketCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblSizeSocketMap"
+        android:layout_marginTop="25dp"
+        android:text="@string/TCPSocketCount"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblUDPSocketCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblTCPSocketCount"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/lblAppPort"
+        android:text="@string/UDPSocketCount"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTCPPacketCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblUDPSocketCount"
+        android:layout_marginTop="25dp"
+        android:text="@string/TCPPacketCount"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblUDPPacketCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblTCPPacketCount"
+        android:layout_marginTop="25dp"
+        android:text="@string/UDPPacketCount"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTUNinPacketCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblUDPPacketCount"
+        android:layout_marginTop="25dp"
+        android:text="@string/TUNinPacketCount"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTUNoutPacketCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblTUNinPacketCount"
+        android:layout_marginTop="25dp"
+        android:text="@string/TUNoutPacketCount"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/lblSizePortMapValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblSizeSocketMap"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblSizeSocketMapValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblTCPSocketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTCPSocketCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblUDPSocketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblUDPSocketCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblTCPPacketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTCPPacketCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblUDPPacketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblUDPPacketCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblTUNinPacketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTUNinPacketCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblTUNoutPacketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblTUNoutPacketCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblTUNoutPacketCount"
+        android:layout_alignBottom="@+id/lblTUNoutPacketCount"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/lblTUNoutPacketCount"
+        android:text="@string/notInitialized"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
+

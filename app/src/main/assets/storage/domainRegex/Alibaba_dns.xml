@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Alibaba
+Internal-Id: 5
+Source: manual
+Author: Pennekamp, Henze
+Date: 2017-05-04 10:17
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Alibaba" Id="5">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:alibaba|alicdn|alibaba-group|aliyun|aliyuncs|alicloud|alibaba-inc|mmcdn)\.com" />
+    <!-- Umeng -->
+    <Regex Regex="(?:\S*\.)?(?:umeng|umengcloud|um0|umindex|umsns|umtrack|mobmore)\.(?:co|com|cloud)" />
+  </Region>
+</Service>
+</DomainRegexes>

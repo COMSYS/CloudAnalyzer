@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: AppNexus
+Internal-Id: 11
+Source: manual
+Author: Henze
+Date: 2017-02-25 18:40
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="AppNexus" Id="11">
+  <Region ID="0">
+    <Regex Regex=".*CN=(?:\S*\.)?(?:appnexus|adnxs)\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

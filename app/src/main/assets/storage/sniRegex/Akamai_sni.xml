@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Akamai
+Internal-Id: 4
+Source: manual
+Author: Henze
+Date: 2017-02-22 14:25
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Akamai" Id="4">
+  <Region ID="0">
+    <!-- https://community.akamai.com/thread/4476-whitelisting-akamai-cdn-via-dns -->
+    <Regex Regex="(?:\S*\.)?(?:edgekey|edgesuite|akamaiedge|akamaihd|akamaihd-staging|akamaized|akamaized-staging|akam|akamaistream|srip)\.net" />
+    <Regex Regex="(?:\S*\.)?(?:akamai|akamaitech)\.(?:net|com)" />
+    <Regex Regex="(?:\S*\.)?akamaitechnologies\.(?:fr|com)" />
+    <!--<Regex Regex="(?:\S*\.)?akadns\.net" />-->
+  </Region>
+</Service>
+</DomainRegexes>

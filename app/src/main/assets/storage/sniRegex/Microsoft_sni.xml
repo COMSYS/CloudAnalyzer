@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Microsoft
+Internal-Id: 51
+Source: https://azure.microsoft.com/en-us/documentation/articles/cloud-services-custom-domain-name/ and https://docs.microsoft.com/de-de/azure/cdn/cdn-map-content-to-custom-domain , https://support.hockeyapp.net/kb/app-management-2/how-to-whitelist-hockeyapp , https://support.content.office.net/en-us/static/O365IPAddresses.xml, senderbase.org
+Author: Henze, Pennekamp
+Date: 2017-05-04 10:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Microsoft" Id="51">
+  <Region ID="0">
+    <!-- HockeyApp -->
+    <Regex Regex="(?:\S*\.)?hockeyapp\.(?:net|com)" />
+    <!-- MicrosoftAzure -->
+    <Regex Regex="(?:\S*\.)?(?:cloudapp|msecnd|azureedge|a-msedge|azurewebsites\.windows|azurewebsites|azure-mobile|azure-api|trafficmanager)\.net" />
+    <Regex Regex="(?:\S*\.)?(?:aadrm|azurerms|azure)\.com" />
+    <!-- MicrosoftOffice -->
+    <Regex Regex="(?:\S*\.)?(?:aka|gfx|sfx|onestore|mcmexch)\.ms" />
+    <Regex Regex="(?:\S*\.)?(?:bing|exchangelabs|getmicrosoftkey|lync|microsoft|msocdn|msocsp|office365|s-microsoft|omniroot|onedrive|onmicrosoft|outlook|s-msn|visualstudio|acompli|sharepoint|sharepointonline|sway|sway-cdn|sway-extensions|tific|yammer|yammerusercontent|skype|skypeassets|hotmail|hotmail-int|msn|msn-int|live-int|microsoftonline|microsoftstore|microsoftemail|microsoftonline-p|playmsn|msocdn|aspnetcdn|wunderlist)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:office|live|onenote)\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?(?:directtaps|osdinfra|msecnd|msedge|s-msedge|msft|cloudapp|skype|webtv)\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

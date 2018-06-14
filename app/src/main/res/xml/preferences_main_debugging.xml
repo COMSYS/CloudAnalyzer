@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/pref_cat_debugging">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_debugging_output"
+            android:summary="@string/pref_debugging_output_summ"
+            android:title="@string/pref_debugging_output" />
+        <Preference
+            android:dependency="pref_debugging_output"
+            android:key="pref_debugging_path"
+            android:summary="@string/pref_debugging_path_summ"
+            android:title="@string/pref_debugging_path" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="pref_debugging_output"
+            android:key="pref_debugging_pcap"
+            android:summary="@string/pref_debugging_pcap_summ"
+            android:title="@string/pref_debugging_pcap" />
+        <MultiSelectListPreference
+            android:defaultValue="@array/pref_log_level_defaults"
+            android:entries="@array/pref_log_level_titles"
+            android:entryValues="@array/pref_log_level_values"
+            android:key="pref_debugging_log_level"
+            android:summary="@string/pref_debugging_log_level_summ"
+            android:title="@string/pref_debugging_log_level" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_debugging_level_value"
+            android:key="pref_debugging_level"
+            android:summary="@string/pref_debugging_level_summ"
+            android:title="@string/pref_debugging_level" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="pref_debugging_pcap"
+            android:key="pref_debugging_pcap_header"
+            android:summary="@string/pref_debugging_pcap_header_summ"
+            android:title="@string/pref_debugging_pcap_header" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

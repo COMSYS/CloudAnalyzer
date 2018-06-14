@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: StumbleUpon
+Internal-Id: 75
+Source: manual
+Author: Pennekamp
+Date: 2017-02-23 16:55
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="StumbleUpon" Id="75">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:stumbleupon|stumble-upon)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

@@ -1,0 +1,15 @@
+#######
+# list handlers here
+#######
+
+# storage handlers
+de.rwth.comsys.cloudanalyzer.handlers.storages.DnsStorage
+de.rwth.comsys.cloudanalyzer.handlers.storages.IpRangeStorage
+de.rwth.comsys.cloudanalyzer.handlers.storages.AggregationStorage
+
+# handlers
+de.rwth.comsys.cloudanalyzer.handlers.DnsHandler
+de.rwth.comsys.cloudanalyzer.handlers.NetworkPacketHandler
+de.rwth.comsys.cloudanalyzer.handlers.TlsHandler
+de.rwth.comsys.cloudanalyzer.handlers.IpAddressHandler
+de.rwth.comsys.cloudanalyzer.handlers.QuicHandler

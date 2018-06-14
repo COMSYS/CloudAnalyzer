@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: ExperianMarketingServices
+Internal-Id: 30
+Source: manual, senderbase.org
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="ExperianMarketingServices" Id="30">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:cheetahmail|dmti|experian|experiannet|experianinteractive)\.com" />
+    <Regex Regex="(?:\S*\.)?experian\.co\.uk" />
+    <Regex Regex="(?:\S*\.)?mpub\.jp" />
+    <Regex Regex="(?:\S*\.)?ems01\.eu" />
+    <Regex Regex="(?:\S*\.)?(?:chtah|emstechnology2)\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

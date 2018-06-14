@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Adobe
+Internal-Id: 3
+Certificate-Source: https://login.marketing.adobe.com
+Earliest-Certificate-Expiry: 2018-01-16
+Author: Muehmer (last edit: Pennekamp)
+Date: 2016-07-11 18:55
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Adobe" Id="3">
+  <Region ID="0">
+    <Regex Regex=".*O=.*Adobe Marketing Cloud(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=.*Adobe Systems Incorporated(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*O=.*TubeMogul(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

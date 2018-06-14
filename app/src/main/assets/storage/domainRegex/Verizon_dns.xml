@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Verizon
+Internal-Id: 84
+Source: https://edgecastcdn.com/ , manual, senderbase.org
+Author: Muehmer, Pennekamp, Henze
+Date: 2017-05-04 09:40
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Verizon" Id="84">
+  <Region ID="0">
+    <!-- EdgeCast -->
+    <!-- http://tdgresearch.com/well-that-was-fast-uplynk-acquired-by-verizon-digital-media-services/ -->
+    <Regex Regex="(?:\S*\.)?(?:edgecastcdn|edgecast|uplynk|verizondigitalmedia|v1cdn|v2cdn|lbcdn|alphacdn|betacdn|gammacdn|deltacdn|epsiloncdn|zetacdn|etacdn|thetacdn|iotacdn|kappacdn|lambdacdn|mucdn|nucdn|xicdn|omnicroncdn|picdn|rhocdn|sigmacdn|taucdn|ypsiloncdn|phicdn|chicdhn|psicdn|omegacdn)\.(?:com|net)" />
+    <!--<Regex Regex="(?:\S*\.)?edgecastdns\.(?:com|net)" />-->
+    <!-- Flickr -->
+    <Regex Regex="(?:\S*\.)?(?:yimg|flickr)\.com" />
+    <Regex Regex="(?:\S*\.)*flickr" />
+    <!-- Flurry -->
+    <Regex Regex="(?:\S*\.)?flurry(?:\.\S*yahoodns)?\.(?:com|net)" />
+    <Regex Regex="(?:\S*\.)?(?:analytics(?:\.\S*)?|advertisement|ads)\.(?:yahoo|yahooapis)\.com" />
+    <!-- MillennialMedia -->
+    <!-- AOL One https://www.crunchbase.com/organization/aol -->
+    <!-- Nexage https://www.crunchbase.com/organization/nexage -->
+    <Regex Regex="(?:\S*\.)?(?:millennialmedia|mmedia|nexage|aol|aoltw|aolplatforms|aolonnetwork|atdn|advertising|adlearnop|adtech|adtechmarketplace|teamaol|aolcdn)\.com" />
+    <!-- Tumblr -->
+    <Regex Regex="(?:\S*\.)?tumblr\.com" />
+    <!-- Yahoo -->
+    <Regex Regex="(?:\S*\.)?(?:yimg|yahoo|ymail|yahoo-inc)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:icq|yahoo)\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Apple
+Internal-Id: 8
+Source: manual, senderbase.org
+Author: Pennekamp
+Date: 2017-23-02 15:30
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Apple" Id="8">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:aaplimg|mac|me|filemaker|icloud|apple)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

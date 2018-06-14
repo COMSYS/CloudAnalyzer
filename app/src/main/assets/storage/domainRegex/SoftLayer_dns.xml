@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: SoftLayer
+Internal-Id: 66
+Source: manual, senderbase.org
+Author: Henze
+Date: 2017-02-22 15:25
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="SoftLayer" Id="66">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:ibmcloud|networklayer|softlayer|sl-reverse|theplanet)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

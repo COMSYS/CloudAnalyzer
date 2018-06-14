@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: AdColony
+Internal-Id: 1
+Source: manual
+Author: Henze
+Date: 2017-02-21 11:10
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="AdColony" Id="1">
+  <Region ID="0">
+    <!-- Opera Media Networks is now AdColony http://operamediaworks.com/ -->
+    <!-- AdMarvel https://www.crunchbase.com/organization/admarvel -->
+    <Regex Regex="(?:\S*\.)?(?:adcolony|admarvel)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

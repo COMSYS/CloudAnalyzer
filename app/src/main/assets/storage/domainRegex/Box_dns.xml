@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Box
+Internal-Id: 15
+Source: https://community.box.com/t5/Account-Information/Configuring-A-Firewall-For-Box-Applications/ta-p/12
+Author: Muehmer (last edit: Pennekamp)
+Date: 2016-07-07 17:25
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Box" Id="15">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:box|boxcdn|boxcloud|boxlocalhost)\.(?:com|net)" />
+  </Region>
+</Service>
+</DomainRegexes>

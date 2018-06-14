@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Strato
+Internal-Id: 74
+Source: manual, http://research.domaintools.com/statistics/mailservers/
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Strato" Id="74">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?rzone\.de" />
+    <Regex Regex="(?:\S*\.)?strato\.(?:co\.uk|com|de)" />
+    <Regex Regex="(?:\S*\.)?(?:stratoserver|rz-ip)\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Supersonic
+Internal-Id: 76
+Source: manual
+Author: Pennekamp
+Date: 2017-02-21 20:35
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Supersonic" Id="76">
+  <Region ID="0">
+    <!-- http://www.ironsrc.com/press-release/ironsource-supersonic-announce-merger/ -->
+    <!-- StreamRail https://www.crunchbase.com/organization/streamrail -->
+    <Regex Regex="(?:\S*\.)?(?:supersonic|mobilecore|ssacdn|supersonicads|ironsrc|ironsource|streamrail)\.com" />
+    <Regex Regex="(?:\S*\.)?ironbeast\.io" />
+  </Region>
+</Service>
+</DomainRegexes>

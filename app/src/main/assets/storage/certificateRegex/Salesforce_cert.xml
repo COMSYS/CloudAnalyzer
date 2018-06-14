@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Salesforce
+Internal-Id: 63
+Certificate-Source: https://login.salesforce.com/
+Earliest-Certificate-Expiry: 2018-07-02
+Author: Muehmer
+Date: 2016-07-11 10:31
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Salesforce" Id="63">
+  <Region ID="0">
+    <Regex Regex=".*CN=.*salesforce\.com(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

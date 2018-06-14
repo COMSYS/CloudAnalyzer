@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_array">
+        <item>Starte/Stoppe Live-Analyse</item>>
+        <item>Anwendungsliste</item>
+        <item>Diensteliste</item>
+        <item>Standorteliste</item>
+        <item>Einstellungen</item>
+        <item>Impressum &amp; Datenschutz</item>
+        <item>Fehlerreport erstellen</item>
+    </string-array>
+    <string-array name="settings_menu_array">
+        <item>Benachrichtigungen</item>
+        <item>Experteneinstellungen</item>
+        <item>Datenbankverwaltung</item>
+        <item>Verbindungsstatistiken</item>
+        <item>Aktive Verbindungen</item>
+    </string-array>
+
+    <string-array name="pref_log_level_titles">
+        <item>VPN-Schnittstelle</item>
+        <item>VPN-Dienst</item>
+        <item>Datenbank-Transfer</item>
+        <item>Nachrichten-Monitor</item>
+        <item>Netzwerk-Monitor</item>
+        <item>I/O Handler</item>
+        <item>ausgehender Handler</item>
+        <item>eingehender Handler</item>
+        <item>Netzwerkweiterleiter</item>
+        <item>Weiterleitungsmanager</item>
+        <item>TCP-Weiterleiter</item>
+        <item>UDP-Weiterleiter</item>
+    </string-array>
+
+
+    <string-array name="pref_db_debug_information_titles">
+        <item>CloudAnalyzer App</item>
+        <item>Nicht-identifizierte App</item>
+        <item>Unbekannter App Port</item>
+        <item>Unbekannte App-ID</item>
+        <item>Nicht-unterstütztes Protokoll</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: GitHub
+Internal-Id: 35
+Source: manual
+Author: Pennekamp
+Date: 2017-02-23 16:40
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="GitHub" Id="35">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?github\.(?:com|io)" />
+  </Region>
+</Service>
+</DomainRegexes>

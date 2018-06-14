@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: comScore
+Internal-Id: 22
+Source: manual
+Author: Henze
+Date: 2017-02-22 10:25
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="comScore" Id="22">
+  <Region ID="0">
+    <!-- http://dax-files.comscore.com/digitalanalytix/EU/onecall_api/help.html -->
+    <Regex Regex="(?:\S*\.)?comscore\.(?:eu|com)" />
+    <!-- "ScorecardResearch, a service of Full Circle Studies, Inc., is part of the comScore, Inc. market research community" http://www.scorecardresearch.com/ -->
+    <!-- "Sitestat is part of the comScore, Inc. community, a leading global market research company" http://sitestat.com -->
+    <Regex Regex="(?:\S*\.)?(?:scorecardresearch|sitestat)\.com" />
+  </Region>
+</Service>
+</DomainRegexes>

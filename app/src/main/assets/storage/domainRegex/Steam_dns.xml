@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Steam
+Internal-Id: 73
+Source: https://steamcommunity.com/discussions/forum/1/154644349172660302/
+Author: Muehmer
+Date: 2016-07-11 14:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Steam" Id="73">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?(?:steampowered|deathmatchclassic|modexpo|steamcommunity|steamdevdays|steampowered|steampoweredgames|steamstatic|steamusers|valvecorporation|valvesoftware)\.com" />
+    <Regex Regex="(?:\S*\.)?(?:poweredbysteam|steamgames|steamserver|steamusers|valve)\.net" />
+  </Region>
+</Service>
+</DomainRegexes>

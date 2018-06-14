@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: TrendMicro
+Internal-Id: 79
+Source: manual, senderbase.org
+Author: Henze (last edit: Pennekamp)
+Date: 2018-04-06 22:00
+-->
+<DomainRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="TrendMicro" Id="79">
+  <Region ID="0">
+    <Regex Regex="(?:\S*\.)?trendmicro\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?trendmicro\.[A-Za-z]{2,3}\.[A-Za-z]{2,3}" />
+    <Regex Regex="(?:\S*\.)?(?:mail-abuse|securecloud)\.com" />
+    <Regex Regex="(?:\S*\.)?trendnet\.org" />
+    <Regex Regex="(?:\S*\.)?immun\.io" />
+  </Region>
+</Service>
+</DomainRegexes>

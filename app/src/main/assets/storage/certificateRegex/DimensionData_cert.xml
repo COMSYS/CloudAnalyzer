@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: Dimension Data
+Internal-Id: 25
+Certificate-Source: https://na-caas-idp.dimensiondata.cloud/
+Earliest-Certificate-Expiry: 2019-03-15
+Author: Muehmer
+Date: 2016-07-07 16:40
+-->
+<CertificateRegexes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="Dimension Data" Id="25">
+  <Region ID="0">
+    <Regex Regex=".*O=Dimension Data(?:,.*)?$" Type="Subject"/>
+    <Regex Regex=".*" Type="AlternativeName"/>
+  </Region>
+</Service>
+</CertificateRegexes>

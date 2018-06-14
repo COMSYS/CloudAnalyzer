@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Service: GMO Cloud
+Internal-Id: 36
+Source: http://www.tcpiputils.com/browse/ip-address/209.54.48.171
+Author: manually extended (last edit: sanford)
+Date: 2016-07-08 11:21
+-->
+<IpRanges xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Service Name="GMO Cloud" Id="36">
+  <Region ID="0">
+    <IpRange Subnet ="209.54.51.0/24" />
+  </Region>
+</Service>
+</IpRanges>
