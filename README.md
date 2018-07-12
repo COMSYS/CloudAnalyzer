@@ -124,15 +124,8 @@ If you are planning to integrate CloudAnalyzer into a commercial product and do 
 CloudAnalyzer relies on the following external components:
 
 * [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
-* [libsodium-jni](https://github.com/joshjdevl/libsodium-jni)
-* [javallier](https://github.com/n1analytics/javallier)
 
 All these dependencies are published under Apache 2.0 license.
-
-We include the following JniLibs:
-* [jna](https://github.com/java-native-access/jna) - extracted
-* [gmp](https://github.com/Rupan/gmp) - copied
-* [libsodium-jni](https://github.com/joshjdevl/libsodium-jni) - self-built
 
 ## Contributors
 
@@ -147,15 +140,19 @@ CloudAnalyzer has been developed at the [Chair of Communication and Distributed 
 
 ##### Screenshots
 
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/01_TermsOfUse.png" width="180" height="320" />
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/04_StartUp_Screen.png" width="180" height="320" />
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/05_Apps_View.png" width="180" height="320" />
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/06_Apps_View_continued.png" width="180" height="320" />
+<p float="left">
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/01_TermsOfUse.png" width="180" height="320" />
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/04_StartUp_Screen.png" width="180" height="320" />
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/05_Apps_View.png" width="180" height="320" />
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/06_Apps_View_continued.png" width="180" height="320" />
+</p>
 
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/07_Services_View.png" width="180" height="320" />
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/08_Services_View_continued.png" width="180" height="320" />
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/09_Locations_View.png" width="180" height="320" />
-<img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/10_Locations_View_continued.png" width="180" height="320" />
+<p float="left">
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/07_Services_View.png" width="180" height="320" />
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/08_Services_View_continued.png" width="180" height="320" />
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/09_Locations_View.png" width="180" height="320" />
+  <img src="https://raw.githubusercontent.com/COMSYS/CloudAnalyzer/master/screenshots/10_Locations_View_continued.png" width="180" height="320" />
+</p>
 
 For more screenshots, see [here](https://github.com/COMSYS/CloudAnalyzer/tree/master/screenshots).
 
